@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+ <link rel="icon" type="image/x-icon" href="/img/newlogo.png" />
+		<title>Choose a File</title>
+	</head>
+	<body>
+		<h2>Receiver is loaded.</h2>
+		<h2>I'm supposed to be an invisible iframe... (you shouldn't see this)</h2>
+		<script>
+		let uauthBC = new BroadcastChannel("uauth");
+		window.addEventListener("message", function(e) {
+			uauthBC.postMessage({fwOrigin: e.origin, webretro: e.data.webretro});
+			window.parent.postMessage("acknowledged", "*");
+		}, false);
+		</script>
+	<script src="/html/settings/js/index.js"></script> 
+   </body>
+</html>
