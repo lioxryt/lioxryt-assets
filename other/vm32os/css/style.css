@@ -1,0 +1,199 @@
+body {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+label input[type="file"] {
+	display: none;
+}
+
+input[type="number"], input[type="text"], input[type="url"] {
+	position: relative;
+	display: block;
+	width: fit-content;
+	height: auto;
+	outline: none;
+	padding-left: 2px;
+	padding-right: 2px;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 1px;
+	color: #ffffff;
+	background-color: #001a1a;
+}
+
+#toolbar {
+	position: relative;
+	display: flex;
+	width: fit-content;
+	height: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+input[type=file] {
+	position: relative;
+	display: block;
+	width: fit-content;
+	height: fit-content;
+}
+
+.buttons, input[type=file]::file-selector-button {
+	position: relative;
+	display: block;
+	width: fit-content;
+	height: fit-content;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	color: black;
+	cursor: pointer;
+	background-color: #c0c0c0;
+	border-style: solid;
+	border-width: 1px;
+	border-top-color: #f0f0f0;
+	border-left-color: #f0f0f0;
+	border-bottom-color: #101010;
+	border-right-color: #101010;
+}
+
+.buttons:active, input[type=file]::file-selector-button:active {
+	border-top-color: #101010;
+	border-left-color: #101010;
+	border-bottom-color: #f0f0f0;
+	border-right-color: #f0f0f0;
+}
+
+.buttons[disabled = true] {
+	color: #808080;
+	background-color: #e0e0e0;
+	cursor: default;
+	border-color: #808080;
+}
+
+#option-bar {
+	position: relative;
+	width: fit-content;
+	height: fit-content;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#option-bar-title {
+	position: relative;
+	width: fit-content;
+	height: fit-content;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+	font-weight: 800;
+}
+
+.option {
+	position: relative;
+	display: flex;
+	width: fit-content;
+	height: fit-content;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.option-label {
+	position: relative;
+	width: fit-content;
+	height: fit-content;
+	margin-right: 5px;
+}
+
+.option-unit {
+	position: relative;
+	width: fit-content;
+	height: fit-content;
+	margin-left: 5px;
+}
+
+select {
+	position: relative;
+	display: block;
+	width: fit-content;
+	height: auto;
+	outline: none;
+	padding-left: 2px;
+	padding-right: 2px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	color: #ffffff;
+	background-color: #001a1a;
+}
+
+#apply {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#os-setup-menu {
+	position: relative;
+	width: fit-content;
+	height: fit-content;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#screen-container {
+	position: relative;
+	width: 1024px;
+	height: 768px;
+	padding: 10px;
+	margin: auto;
+	border-style: solid;
+	border-color: #ffffff;
+	border-width: 1px;
+	border-radius: 10px;
+}
+
+#screen {
+	position: absolute;
+	display: block;
+	width: 1024px;
+	height: 768px;
+	min-width: 1024px;
+	min-height: 768px;
+	max-width: 1024px;
+	max-height: 768px;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	resize: none;
+	overflow: hidden;
+	background-color: #000000;
+}
+
+#vm {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	outline: none;
+	border: none;
+	resize: none;
+	white-space: pre-wrap;
+	font-size: 16px;
+	font-family: monospace;
+	font-weight: 600;
+	font-style: normal;
+	line-height: 16px;
+	text-align: start;
+	text-decoration: none;
+}

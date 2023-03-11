@@ -1,0 +1,13 @@
+{
+"companyName": "Andrew Esberto",
+"productName": "Very Very Plane",
+"dataUrl": "Desktop.data.unityweb",
+"asmCodeUrl": "Desktop.asm.code.unityweb",
+"asmMemoryUrl": "Desktop.asm.memory.unityweb",
+"asmFrameworkUrl": "Desktop.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

@@ -1,0 +1,72 @@
+body {
+  background-color: #f6f6f6;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+  
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+  
+.square {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  font-size: 150px;
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+  
+#player-display {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  margin-bottom: 16px;
+
+}
+  
+button {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 16px;
+}
+  
+button:hover {
+  background-color: #444;
+}
+
+#board {
+    position: absolute;
+    top: 17%;
+    left: 34%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.subtitle {
+  text-align: center;
+  font-weight: bold;
+}
