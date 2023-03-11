@@ -1,0 +1,20 @@
+{
+	"image": "INGAME_BUTTONS_WEB.png",
+	"spriteCount": 16,
+	"sprite_0": { "id": "BUTTON1", "x": 47, "y": 1, "width": 286, "height": 41, "pivotx": 143, "pivoty": 20 },
+	"sprite_1": { "id": "BUTTON2", "x": 47, "y": 44, "width": 286, "height": 41, "pivotx": 143, "pivoty": 20 },
+	"sprite_2": { "id": "BUTTON3", "x": 47, "y": 87, "width": 286, "height": 41, "pivotx": 143, "pivoty": 20 },
+	"sprite_3": { "id": "BUTTON4", "x": 1, "y": 1, "width": 44, "height": 45, "pivotx": 19, "pivoty": 19 },
+	"sprite_4": { "id": "BUTTON5", "x": 1, "y": 48, "width": 44, "height": 45, "pivotx": 19, "pivoty": 19 },
+	"sprite_5": { "id": "BUTTON6", "x": 47, "y": 130, "width": 155, "height": 17, "pivotx": 77, "pivoty": 8 },
+	"sprite_6": { "id": "BUTTON7", "x": 531, "y": 1, "width": 56, "height": 41, "pivotx": 28, "pivoty": 20 },
+	"sprite_7": { "id": "BUTTON8", "x": 433, "y": 44, "width": 56, "height": 41, "pivotx": 28, "pivoty": 20 },
+	"sprite_8": { "id": "BUTTON9", "x": 433, "y": 87, "width": 56, "height": 41, "pivotx": 28, "pivoty": 20 },
+	"sprite_9": { "id": "BUTTON10", "x": 335, "y": 1, "width": 96, "height": 41, "pivotx": 48, "pivoty": 20 },
+	"sprite_10": { "id": "BUTTON11", "x": 335, "y": 44, "width": 96, "height": 41, "pivotx": 48, "pivoty": 20 },
+	"sprite_11": { "id": "BUTTON12", "x": 335, "y": 87, "width": 96, "height": 41, "pivotx": 48, "pivoty": 20 },
+	"sprite_12": { "id": "BUTTON13", "x": 433, "y": 1, "width": 96, "height": 41, "pivotx": 48, "pivoty": 20 },
+	"sprite_13": { "id": "BUTTON14", "x": 491, "y": 44, "width": 56, "height": 41, "pivotx": 28, "pivoty": 20 },
+	"sprite_14": { "id": "BUTTON15", "x": 491, "y": 87, "width": 56, "height": 41, "pivotx": 28, "pivoty": 20 },
+	"sprite_15": { "id": "BUTTON16", "x": 549, "y": 44, "width": 56, "height": 41, "pivotx": 28, "pivoty": 20 }
+}

@@ -1,0 +1,11 @@
+{
+	"image": "INGAME_THEME_CHERRYBLOSSOM.png",
+	"spriteCount": 7,
+	"sprite_0": { "id": "CHERRY_BGITEM_TORII", "x": 1, "y": 888, "width": 143, "height": 103, "pivotx": 0, "pivoty": 0 },
+	"sprite_1": { "id": "CHERRY_BGITEM_FUJI", "x": 146, "y": 888, "width": 174, "height": 92, "pivotx": 0, "pivoty": 0 },
+	"sprite_2": { "id": "CHERRY_BG_4", "x": 1, "y": 1, "width": 512, "height": 274, "pivotx": 0, "pivoty": 0 },
+	"sprite_3": { "id": "CHERRY_FG_1", "x": 1, "y": 993, "width": 512, "height": 89, "pivotx": 0, "pivoty": 0 },
+	"sprite_4": { "id": "CHERRY_BG_2", "x": 1, "y": 516, "width": 512, "height": 189, "pivotx": 0, "pivoty": 0 },
+	"sprite_5": { "id": "CHERRY_BG_3", "x": 1, "y": 707, "width": 512, "height": 179, "pivotx": 0, "pivoty": 0 },
+	"sprite_6": { "id": "CHERRY_BG_1", "x": 1, "y": 277, "width": 512, "height": 237, "pivotx": 0, "pivoty": 0 }
+}

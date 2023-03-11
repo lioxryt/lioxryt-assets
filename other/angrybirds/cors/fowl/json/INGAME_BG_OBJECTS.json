@@ -1,0 +1,8 @@
+{
+	"image": "INGAME_BG_OBJECTS.png",
+	"spriteCount": 4,
+	"sprite_0": { "id": "PARALLAX_CRANE_1", "x": 0, "y": 0, "width": 145, "height": 194, "pivotx": 72, "pivoty": 190 },
+	"sprite_1": { "id": "PARALLAX_CRANE_2", "x": 0, "y": 194, "width": 207, "height": 150, "pivotx": 103, "pivoty": 146 },
+	"sprite_2": { "id": "PARALLAX_CRANE_3", "x": 0, "y": 344, "width": 157, "height": 114, "pivotx": 78, "pivoty": 110 },
+	"sprite_3": { "id": "PARALLAX_CRANE_4", "x": 145, "y": 0, "width": 111, "height": 147, "pivotx": 55, "pivoty": 143 }
+}

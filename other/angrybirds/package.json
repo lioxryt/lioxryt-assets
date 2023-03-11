@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "electron ."
+  },
+  "name": "angry-birds-chrome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "author": "Rovio Entertainment",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^17.0.0"
+  }
+}

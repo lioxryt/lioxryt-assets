@@ -1,0 +1,454 @@
+{
+	"episodes" : [
+	  {
+		"name" : "Trick or Treat",
+		"levelsPerPage" : [15, 15, 15],
+		"rowsPerPage" : [3, 3, 3],
+		"pageIndexes" : ["h1", "h2", "h3"],
+		"pageBackgroundImages" : ["images/Menu/chapter_selection/LevelSelection_TrickOrTreat.png", "images/Menu/chapter_selection/LevelSelection_TrickOrTreat.png", "images/Menu/chapter_selection/LevelSelection_TrickOrTreat.png"],
+		"pageBackgroundMirrored" : [false, false, false],
+		"pageBackgroundColors" : [{"r" : 41, "g" : 118, "b" : 142}, {"r" : 41, "g" : 118, "b" : 142}, {"r" : 41, "g" : 118, "b" : 142}],
+		"menuImage" : "EPISODE_TRICKORTREAT",
+		"featherBoxImage": "POPUP_ME_EP1",
+		"leftCorner" : "LS_THEME_1_LEFT",
+		"rightCorner" : "LS_THEME_12_RIGHT",
+		"levelBoxBackgrounds" : [
+			"LEVESELECTION_LEVEL_BG_TRICKORTREAT",
+			"LEVESELECTION_LEVEL_BG_TRICKORTREAT",
+			"LEVESELECTION_LEVEL_BG_TRICKORTREAT"
+		],
+		"levelRequirements" : [
+			["h1-1","none",""]
+		]
+	  },
+
+	  {
+	  	"name" : "christmas",
+	  	"levelsPerPage" : [25, 3],
+		"rowsPerPage" : [4, 1],
+		"pageIndexes" : ["christmas", "christmasSpecial"],
+		"levelSelectionIndexes" : ["1", "2"],
+		"displayIndexes" : ["Day", "Special"],
+		"pageBackgroundImages" : ["images/Menu/chapter_selection/LevelSelection_Xmas.png", "images/Menu/chapter_selection/LevelSelection_Xmas.png"],
+		"pageBackgroundMirrored" : [false, false, false],
+		"pageBackgroundColors" : [{"r" : 255, "g" : 165, "b" : 0}, {"r" : 255, "g" : 165, "b" : 0}],
+		"pageSelectorSprites" : ["LEVESELECTION_BUTTON_LEFT_XMAS", "LEVESELECTION_BUTTON_RIGHT_XMAS"],
+		"menuImage" : "EPISODE_SEASONSGREEDINGS",
+		"featherBoxImage": "POPUP_ME_XMAS",
+		"leftCorner" : "",
+		"rightCorner" : "",
+		"levelBoxBackgrounds" : [
+			"LS_LEVEL_BG_NORMAL_CLOSED_X",
+			"BUTTON_LEVELSELECTION_XMAS_GIFT",
+			"BUTTON_LEVELSELECTION_XMAS_GIFT"
+		],
+		"levelRequirements" : [
+			["everyLevel", "none",""]
+		],
+		"levelThemeOverrides" : { "christmasSpecial-1" : "BACKGROUND_XMAS_SPECIAL",
+                                  "christmasSpecial-2" : "BACKGROUND_XMAS_SPECIAL",
+                                  "christmasSpecial-3" : "BACKGROUND_XMAS_SPECIAL",
+                                  "christmas-5" : "BACKGROUND_SAMSUNG"},
+         "cutscenes" : {
+         	"INTRO_christmas-1" : "comic",
+         	"INTRO_christmas-2" : "comic",
+         	"INTRO_christmas-3" : "comic",
+         	"INTRO_christmas-4" : "comic",
+         	"INTRO_christmas-6" : "comic",
+         	"INTRO_christmas-5" : "comic",
+         	"INTRO_christmas-7" : "comic",
+         	"INTRO_christmas-8" : "comic",
+         	"INTRO_christmas-9" : "comic",
+         	"INTRO_christmas-10" : "comic",
+         	"INTRO_christmas-11" : "comic",
+         	"INTRO_christmas-12" : "comic",
+         	"INTRO_christmas-13" : "comic",
+         	"INTRO_christmas-14" : "comic",
+         	"INTRO_christmas-15" : "comic",
+         	"INTRO_christmas-16" : "comic",
+         	"INTRO_christmas-17" : "comic",
+         	"INTRO_christmas-18" : "comic",
+         	"INTRO_christmas-19" : "comic",
+         	"INTRO_christmas-20" : "comic",
+         	"INTRO_christmas-21" : "comic",
+         	"INTRO_christmas-22" : "comic",
+         	"INTRO_christmas-23" : "comic",
+         	"INTRO_christmas-24" : "comic",
+         	"INTRO_christmas-25" : "comic"
+         }
+      },
+
+	  {
+		"name" : "Easter Eggs",
+		"levelsPerPage" : [18, 3],
+		"rowsPerPage" : [3, 1],
+		"pageIndexes" : ["easter", "easterSpecial"],
+		"pageBackgroundImages" : ["images/Menu/chapter_selection/LevelSelection_Easter.png", "images/Menu/chapter_selection/LevelSelection_Easter.png"],
+		"pageBackgroundMirrored" : [false, false],
+		"pageBackgroundColors" : [{"r" : 41, "g" : 118, "b" : 142}, {"r" : 41, "g" : 118, "b" : 142}],
+		"menuImage" : "EPISODE_EASTEREGGS",
+		"featherBoxImage": "POPUP_ME_EP1",
+		"leftCorner" : "LS_THEME_E_LEFT",
+		"rightCorner" : "LS_THEME_E_RIGHT",
+		"levelBoxBackgrounds" : [
+			"LEVESELECTION_LEVEL_BG_0",
+			"BUTTON_EGGLEVEL"
+		],
+		"levelRequirements" : [
+			["easter-1","none",""],
+			["easterSpecial-1","selfUnlocked",""],
+			["easterSpecial-2","selfUnlocked",""],
+			["easterSpecial-3","selfUnlocked",""]
+		]
+	  },
+
+	  {
+		"name" : "Moon Festival",
+		"levelsPerPage" : [15, 15],
+		"rowsPerPage" : [3, 3],
+		"pageIndexes" : ["m1", "m2"],
+		"pageBackgroundImages" : ["images/Menu/chapter_selection/levelselection_moonfestival.png", "images/Menu/chapter_selection/levelselection_moonfestival.png"],
+		"pageBackgroundMirrored" : [false, false],
+		"pageBackgroundColors" : [{"r" : 41, "g" : 118, "b" : 142}, {"r" : 41, "g" : 118, "b" : 142}],
+		"menuImage" : "EPISODE_MOONFESTIVAL",
+		"featherBoxImage": "POPUP_ME_EP1",
+		"leftCorner" : "LS_THEME_MF_LEFT",
+		"rightCorner" : "LS_THEME_MF_RIGHT",
+		"levelBoxBackgrounds" : [
+			"LEVESELECTION_LEVEL_BG_MOONFESTIVAL",
+			"LEVESELECTION_LEVEL_BG_MOONFESTIVAL"
+		],
+		"levelRequirements" : [
+			["m1-1","none", ""]
+		]
+	  },
+
+	  {
+		"name" : "Cherry Blossom",
+		"levelsPerPage" : [15],
+		"rowsPerPage" : [3],
+		"pageIndexes" : ["cherryBlossom"],
+		"pageBackgroundImages" : ["images/Menu/chapter_selection/LevelSelection_Cherry.png"],
+		"pageBackgroundMirrored" : [false],
+		"pageBackgroundColors" : [{"r" : 41, "g" : 118, "b" : 142}],
+		"menuImage" : "EPISODE_CHERRYBLOSSOM",
+		"featherBoxImage": "POPUP_ME_EP1",
+		"leftCorner" : "LS_THEME_CF_LEFT",
+		"rightCorner" : "LS_THEME_CF_RIGHT",
+		"levelBoxBackgrounds" : [
+			"LEVESELECTION_LEVEL_BG_0"
+		],
+		"levelRequirements" : [
+			["cherryBlossom-1","none",""]
+		]
+	  },
+
+	  {
+		"name" : "Summer Pignic",
+		"levelsPerPage" : [29],
+		"rowsPerPage" : [4],
+		"pageIndexes" : ["summer_pignic"],
+		"pageBackgroundImages" : ["images/Menu/chapter_selection/summer_level_selection.png"],
+		"pageBackgroundMirrored" : [false, false],
+		"pageBackgroundColors" : [{"r" : 41, "g" : 118, "b" : 142}],
+		"menuImage" : "EPISODE_SUMMERPIGNIC",
+		"featherBoxImage": "POPUP_ME_EP1",
+		"leftCorner" : "SMR_LS_ILL_BLEFT",
+		"rightCorner" : "SMR_LS_ILL_BRIGHT",
+		"levelBoxBackgrounds" : [
+			"LS_SUMMER_LVL_CLOSED"
+		],
+		"levelRequirements" : [
+			["summer_pignic-1","none",""],
+			["summer_pignic-29","selfUnlocked",""]
+		]
+	  },
+
+	  {
+	  	"name" : "1",
+		"levelsPerPage" : [21, 21, 21],
+		"rowsPerPage" : [3, 3, 3],
+		"pageIndexes" : ["1", "2", "3"],
+		"pageBackgroundColors" : [{"r" : 41, "g" : 118, "b" : 142}, {"r" : 14, "g" : 104, "b" : 79}, {"r" : 161, "g" : 98, "b" : 60}],
+		"menuImage" : "EPISODE_POACHEDEGGS",
+		"featherBoxImage": "POPUP_ME_EP1",
+		"leftCorner" : "LEVESELECTION_LEFT_CORNER_1", 
+		"rightCorner" : "LEVESELECTION_RIGHT_CORNER_1",
+		"levelBoxBackgrounds" : [
+			"LEVESELECTION_LEVEL_BG_0",
+			"LEVESELECTION_LEVEL_BG_1",
+			"LEVESELECTION_LEVEL_BG_2"
+		],
+		"freePage" : "1",
+		"unlocks" : "2",
+		"cutscenes" : {
+			"INTRO_1-1": "CUTSCENE_EP1_INTRO",
+			"1-21": "CUTSCENE_EP1_BOSS1",
+			"2-21": "CUTSCENE_EP1_BOSS2",
+			"3-21": "CUTSCENE_EP1_END"
+		},
+		"levelRequirements" : [
+			["1-1","none",""]
+		],
+		"classicEpisode": true
+	  },
+	  {
+	  	"name" : "2",
+		"levelsPerPage" : [21, 21, 21],
+		"rowsPerPage" : [3, 3, 3],
+		"pageIndexes" : ["4", "5"],
+		"pageBackgroundColors" : [{"r" : 105, "g" : 184, "b" : 225}, {"r" : 184, "g" : 152, "b" : 91}],
+		"menuImage" : "EPISODE_MIGHTYHOAX",
+		"featherBoxImage": "POPUP_ME_EP2",
+		"leftCorner" : "LEVESELECTION_LEFT_CORNER_1", 
+		"rightCorner" : "LEVESELECTION_RIGHT_CORNER_1",
+		"levelBoxBackgrounds" : [
+			"LEVESELECTION_LEVEL_BG_3",
+			"LEVESELECTION_LEVEL_BG_4"
+		],
+		"unlocks" : "3",
+		"cutscenes" : {
+			"INTRO_4-1": "CUTSCENE_EP2_INTRO",
+			"4-21": "CUTSCENE_EP2_BOSS1",
+			"5-21": "CUTSCENE_EP2_END"
+		},
+		"levelRequirements" : [
+			["4-1","none",""]
+		],
+		"classicEpisode": true
+	  },
+	  {
+	  	"name" : "3",
+	  	"levelsPerPage" : [15, 15, 15],
+		"rowsPerPage" : [3, 3, 3],
+		"pageIndexes" : ["6", "7", "8"],
+		"pageBackgroundColors" : [{"r" : 82, "g" : 103, "b" : 43}, {"r" : 21, "g" : 31, "b" : 63}, {"r" : 190, "g" : 219, "b" : 229}],
+		"menuImage" : "EPISODE_DANGERABOVE",
+		"featherBoxImage": "POPUP_ME_EP3",
+		"leftCorner" : "LEVESELECTION_LEFT_CORNER_1", 
+		"rightCorner" : "LEVESELECTION_RIGHT_CORNER_1",
+		"levelBoxBackgrounds" : [
+			"LEVESELECTION_LEVEL_BG_5",
+			"LEVESELECTION_LEVEL_BG_6",
+			"LEVESELECTION_LEVEL_BG_7"
+		],
+		"hidden" : false,
+		"cutscenes" : {
+			"INTRO_6-1": "CUTSCENE_EP3_INTRO",
+			"6-15": "CUTSCENE_EP3_BOSS1",
+			"7-15": "CUTSCENE_EP3_BOSS2",
+			"8-15": "CUTSCENE_EP3_END"
+		},
+		"levelRequirements" : [
+			["6-1","none",""]
+		],
+		"classicEpisode": true
+	  },
+    {
+      "name" : "The Big Setup",
+      "levelsPerPage" : [15, 15, 15],
+      "rowsPerPage" : [3, 3, 3],
+      "pageIndexes" : ["9", "10", "11"],
+      "pageBackgroundImages" : ["images/Menu/chapter_selection/Chapter_Selection_Background_halved.png", "images/Menu/chapter_selection/Chapter_Selection_Background_halved.png", "images/Menu/chapter_selection/Chapter_Selection_Background_halved.png"],
+      "pageBackgroundMirrored" : [true, true, true],
+      "pageBackgroundColors" : [{"r" : 41, "g" : 118, "b" : 142}, {"r" : 105, "g" : 184, "b" : 225}, {"r" : 82, "g" : 103, "b" : 43}],
+      "menuImage" : "EPISODE_THEBIGSETUP",
+      "featherBoxImage": "POPUP_ME_EP1",
+      "leftCorner" : "LEVESELECTION_LEFT_CORNER_4",
+      "rightCorner" : "LEVESELECTION_RIGHT_CORNER_4",
+      "levelBoxBackgrounds" : [
+          "LEVESELECTION_LEVEL_BG_5",
+          "LEVESELECTION_LEVEL_BG_4",
+          "LEVESELECTION_LEVEL_BG_1"
+      ],
+      "cutscenes" : {
+			"INTRO_9-1": "CUTSCENE_EP4_INTRO",
+			"9-15": "CUTSCENE_EP4_BOSS1",
+			"10-15": "CUTSCENE_EP4_BOSS2",
+			"11-15": "CUTSCENE_EP4_END"
+	  },
+      "levelRequirements" : [
+          ["9-1","none",""]
+      ],
+      "classicEpisode": true
+    },
+	{
+	  "name" : "Ham 'Em High",
+	  "levelsPerPage" : [15, 15, 15],
+	  "rowsPerPage" : [3, 3, 3],
+	  "pageIndexes" : ["12", "13", "14"],
+	  "pageBackgroundImages" : ["images/Menu/chapter_selection/Chapter_Selection_Background_halved.png",
+								"images/Menu/chapter_selection/Chapter_Selection_Background_halved.png",
+								"images/Menu/chapter_selection/Chapter_Selection_Background_halved.png"],
+	  "pageBackgroundMirrored" : [true, true, true],
+	  "pageBackgroundColors" : [{"r" : 126, "g" : 113, "b" : 89}, {"r" : 99, "g" : 142, "b" : 160}, {"r" : 67, "g" : 82, "b" : 62}],
+	  "menuImage" : "EPISODE_HAMEMHIGH",
+	  "featherBoxImage": "POPUP_ME_EP1",
+	  "leftCorner" : "LS_THEME_1_LEFT",
+	  "rightCorner" : "LS_THEME_121_RIGHT",
+	  "levelBoxBackgrounds" : [
+		  "LEVESELECTION_LEVEL_BG_6",
+		  "LEVESELECTION_LEVEL_BG_7",
+		  "LEVESELECTION_LEVEL_BG_2"
+	  ],
+	  "cutscenes" : {
+			"INTRO_12-1": "CUTSCENE_EP5_INTRO",
+			"12-15": "CUTSCENE_EP5_BOSS1",
+			"13-15": "CUTSCENE_EP5_BOSS2",
+			"14-15": "CUTSCENE_EP5_END"
+	  },
+	  "levelRequirements" : [
+		  ["12-1","none",""]
+	  ],
+	  "classicEpisode": true
+	},
+	{
+	  	"name" : "chrome",
+	  	"levelsPerPage" : [21],
+		"rowsPerPage" : [3],
+		"pageIndexes" : ["chrome"],
+		"pageBackgroundColors" : [{"r" : 41, "g" : 118, "b" : 142}],
+		"menuImage" : "EPISODE_CHROME",
+		"featherBoxImage": "POPUP_ME_CHROME",
+		"leftCorner" : "LEVESELECTION_LEFT_CORNER_CHROME", 
+		"rightCorner" : "LEVESELECTION_RIGHT_CORNER_CHROME",
+		"chromeDimension" : true,
+		"levelBoxBackgrounds" : [
+			"LEVESELECTION_LEVEL_CHROME_BG"
+		],
+		"locked" : true,
+		"levelRequirements" : [
+			["everyLevel","selfUnlocked",""]
+		],
+		"classicEpisode": true
+	  }
+  	  ],
+	  "specialItems" : [
+	  {
+		"id": "CHROME-1",
+		"spriteId": "MISC_GOLDEN_EGG",
+		"level": "1-16",
+		"effects": [
+			["show", "ChromeBall"],
+			["unlocks", "chrome-1"]
+		]
+	  },
+	  {
+		"id": "CHROME-2",
+		"spriteId": "MISC_GOLDEN_EGG",
+		"level": "1-18",
+		"effects": [
+			["show", "ChromeBall"],
+			["unlocks", "chrome-2"]
+		]
+	  },
+	  {
+		"id": "CHROME-3",
+		"spriteId": "MISC_GOLDEN_EGG",
+		"level": "1-20",
+		"effects": [
+			["show", "ChromeBall"],
+			["unlocks", "chrome-3"]
+		]
+	  },
+	  {
+		"id": "CHROME-4",
+		"spriteId": "MISC_GOLDEN_EGG",
+		"level": "2-4",
+		"effects": [
+			["show", "ChromeBall"],
+			["unlocks", "chrome-4"]
+		]
+	  },
+	  {
+		"id": "CHROME-5",
+		"spriteId": "MISC_GOLDEN_EGG",
+		"level": "2-20",
+		"effects": [
+			["show", "ChromeBall"],
+			["unlocks", "chrome-5"]
+		]
+	  },
+	  {
+		"id": "CHROME-6",
+		"spriteId": "MISC_GOLDEN_EGG",
+		"level": "3-7",
+		"effects": [
+			["show", "ChromeBall"],
+			["unlocks", "chrome-6"]
+		]
+	  },
+	  {
+		"id": "CHROME-7",
+		"spriteId": "MISC_GOLDEN_EGG",
+		"level": "3-14",
+		"effects": [
+			["show", "ChromeBall"],
+			["unlocks", "chrome-7"]
+		]
+	  },
+	  {
+		"id": "CHROME-8",
+		"spriteId": "MISC_GOLDEN_EGG",
+		"level": "4-4",
+		"effects": [
+			["show", "ChromeBall"],
+			["unlocks", "chrome-8"]
+		]
+	  },
+	  {
+		"id": "CHROME-9",
+		"spriteId": "MISC_GOLDEN_EGG",
+		"level": "4-13",
+		"effects": [
+			["show", "ChromeBall"],
+			["unlocks", "chrome-9"]
+		]
+	  },
+	  {
+		"id": "CHROME-10",
+		"spriteId": "MISC_GOLDEN_EGG",
+		"level": "5-5",
+		"effects": [
+			["show", "ChromeBall"],
+			["unlocks", "chrome-10"]
+		]
+	  },
+	  {
+		"id": "CHROME-11",
+		"spriteId": "MISC_GOLDEN_EGG",
+		"level": "6-9",
+		"effects": [
+			["show", "ChromeBall"],
+			["unlocks", "chrome-11"]
+		]
+	  },
+	  {
+		"id": "CHROME-12",
+		"spriteId": "MISC_GOLDEN_EGG",
+		"level": "6-13",
+		"effects": [
+			["show", "ChromeBall"],
+			["unlocks", "chrome-12"]
+		]
+	  },
+	  {
+		"id": "CHROME-13",
+		"spriteId": "MISC_GOLDEN_EGG",
+		"level": "7-8",
+		"effects": [
+			["show", "ChromeBall"],
+			["unlocks", "chrome-13"]
+		]
+	  },
+	  {
+		"id": "CHROME-14",
+		"spriteId": "MISC_GOLDEN_EGG",
+		"level": "8-2",
+		"effects": [
+			["show", "ChromeBall"],
+			["unlocks", "chrome-14"]
+		]
+	  }
+	  ]
+}

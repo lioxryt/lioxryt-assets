@@ -1,0 +1,20 @@
+{
+	"image": "INGAME_WEB_BUTTONS.png",
+	"spriteCount": 16,
+	"sprite_0": { "id": "BUTTON_HD_HOVER", "x": 368, "y": 0, "width": 53, "height": 41, "pivotx": 26, "pivoty": 20 },
+	"sprite_1": { "id": "BUTTON_HD_NORMAL", "x": 421, "y": 0, "width": 53, "height": 41, "pivotx": 26, "pivoty": 20 },
+	"sprite_2": { "id": "BUTTON_HD_PRESSED", "x": 286, "y": 41, "width": 53, "height": 41, "pivotx": 26, "pivoty": 20 },
+	"sprite_3": { "id": "BUTTON_INSTALL_HOVER", "x": 0, "y": 0, "width": 286, "height": 41, "pivotx": 143, "pivoty": 20 },
+	"sprite_4": { "id": "BUTTON_INSTALL_NORMAL", "x": 0, "y": 41, "width": 286, "height": 41, "pivotx": 143, "pivoty": 20 },
+	"sprite_5": { "id": "BUTTON_LOGOUT_HOVER", "x": 0, "y": 82, "width": 96, "height": 41, "pivotx": 48, "pivoty": 20 },
+	"sprite_6": { "id": "BUTTON_LOGOUT_NORMAL", "x": 0, "y": 123, "width": 96, "height": 41, "pivotx": 48, "pivoty": 20 },
+	"sprite_7": { "id": "BUTTON_SD_HOVER", "x": 286, "y": 82, "width": 53, "height": 41, "pivotx": 26, "pivoty": 20 },
+	"sprite_8": { "id": "BUTTON_SD_NORMAL", "x": 286, "y": 123, "width": 53, "height": 41, "pivotx": 26, "pivoty": 20 },
+	"sprite_9": { "id": "BUTTON_SD_PRESSED", "x": 339, "y": 41, "width": 53, "height": 41, "pivotx": 26, "pivoty": 20 },
+	"sprite_10": { "id": "BUTTON_WEBLOGIN_HOVER", "x": 96, "y": 82, "width": 96, "height": 41, "pivotx": 0, "pivoty": 0 },
+	"sprite_11": { "id": "BUTTON_WEBLOGIN_NORMAL", "x": 96, "y": 123, "width": 96, "height": 41, "pivotx": 48, "pivoty": 20 },
+	"sprite_12": { "id": "TEXT_OPTIMIZED", "x": 339, "y": 82, "width": 155, "height": 17, "pivotx": 87, "pivoty": 8 },
+	"sprite_13": { "id": "BUTTON_CONTACTUS_NORMAL", "x": 192, "y": 82, "width": 82, "height": 41, "pivotx": 41, "pivoty": 20 },
+	"sprite_14": { "id": "BUTTON_CONTACTUS_HOVER", "x": 192, "y": 123, "width": 82, "height": 41, "pivotx": 41, "pivoty": 20 },
+	"sprite_15": { "id": "BUTTON_CONTACTUS_PRESSED", "x": 286, "y": 0, "width": 82, "height": 41, "pivotx": 41, "pivoty": 20 }
+}

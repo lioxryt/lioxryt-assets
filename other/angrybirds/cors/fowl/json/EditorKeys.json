@@ -1,0 +1,19 @@
+{
+"STONE_GROUP": {"keyUp": "k1", "keyDown": "k2"},
+"WOOD_GROUP": {"keyUp": "q", "keyDown": "w"},
+"ICE_GROUP": {"keyUp": "a", "keyDown": "s"},
+"STATIC_GROUP": {"keyUp": "z", "keyDown": "x"},
+
+"FIRST_MISC_GROUP": {"keyUp": "k3", "keyDown": "k4"},
+"ESTRADE_GROUP": {"keyUp": "e", "keyDown": "r"},
+"SECOND_MISC_GROUP": {"keyUp": "d", "keyDown": "f"},
+"EPISODE_GROUP": {"keyUp": "c", "keyDown": "v"},
+
+"PIG_GROUP": {"keyUp": "k5", "keyDown": "k6"},
+"BIRD_GROUP": {"keyUp": "t", "keyDown": "y"},
+
+"SNOW_GROUP": {"keyUp": "k7", "keyDown": "k8"},
+"BREAKABLE_STATIC_GROUP": {"keyUp": "u", "keyDown": "i"},
+"CHROME_GROUP": {"keyUp": "j", "keyDown": "k"},
+"TRASH_GROUP": {"keyUp": "m", "keyDown": "comma"}
+}

@@ -1,0 +1,6 @@
+{
+	"image": "INGAME_MENU_EPISODES_FUJI.png",
+	"spriteCount": 2,
+	"sprite_0": { "id": "EPISODE_FUJI_SAKURA", "x": 265, "y": 1, "width": 271, "height": 394, "pivotx": 135, "pivoty": 197 },
+	"sprite_1": { "id": "EPISODE_FUJI_POACHED", "x": 1, "y": 1, "width": 262, "height": 397, "pivotx": 131, "pivoty": 200 }
+}

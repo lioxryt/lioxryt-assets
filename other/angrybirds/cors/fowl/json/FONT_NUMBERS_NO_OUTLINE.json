@@ -1,0 +1,88 @@
+{
+	"name": "FONT_NUMBERS_NO_OUTLINE",
+	"leading": 75,
+	"spacing": 4,
+	"charCount": 10,
+	"chars": {
+		"char_0": {
+			"code": 50,
+			"x": 51,
+			"y": 74,
+			"width": 42,
+			"height": 68,
+			"baseline": 52
+		},
+		"char_1": {
+			"code": 48,
+			"x": 2,
+			"y": 74,
+			"width": 44,
+			"height": 68,
+			"baseline": 52
+		},
+		"char_2": {
+			"code": 49,
+			"x": 95,
+			"y": 74,
+			"width": 24,
+			"height": 68,
+			"baseline": 52
+		},
+		"char_3": {
+			"code": 57,
+			"x": 136,
+			"y": 2,
+			"width": 44,
+			"height": 69,
+			"baseline": 52
+		},
+		"char_4": {
+			"code": 53,
+			"x": 182,
+			"y": 72,
+			"width": 43,
+			"height": 68,
+			"baseline": 52
+		},
+		"char_5": {
+			"code": 51,
+			"x": 51,
+			"y": 2,
+			"width": 42,
+			"height": 70,
+			"baseline": 53
+		},
+		"char_6": {
+			"code": 54,
+			"x": 136,
+			"y": 73,
+			"width": 39,
+			"height": 69,
+			"baseline": 52
+		},
+		"char_7": {
+			"code": 55,
+			"x": 95,
+			"y": 2,
+			"width": 39,
+			"height": 70,
+			"baseline": 53
+		},
+		"char_8": {
+			"code": 52,
+			"x": 182,
+			"y": 2,
+			"width": 43,
+			"height": 68,
+			"baseline": 52
+		},
+		"char_9": {
+			"code": 56,
+			"x": 2,
+			"y": 2,
+			"width": 47,
+			"height": 70,
+			"baseline": 53
+		}
+	}
+}

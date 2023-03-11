@@ -1,0 +1,674 @@
+{
+  "camera": [
+    {
+      "bottom": -10.028,
+      "id": "Slingshot",
+      "left": -8.26,
+      "right": 85.88,
+      "top": -80.701,
+      "x": 47.711,
+      "y": -45.364
+    },
+    {
+      "bottom": -6.257,
+      "id": "Castle",
+      "left": 36.641,
+      "right": 122.463,
+      "top": -70.686,
+      "x": 88.453,
+      "y": -38.472
+    }
+  ],
+  "counts": {
+    "birds": 5,
+    "blocks": 100,
+    "joints": 1
+  },
+  "id": "pack6/LevelP3_215.lua",
+  "scoreEagle": 84000,
+  "scoreGold": 80000,
+  "scoreSilver": 70000,
+  "theme": "BACKGROUND_FOREST",
+  "world": {
+    "bird_1": {
+      "angle": 0,
+      "id": "BIRD_YELLOW",
+      "x": 21.772,
+      "y": -30.183
+    },
+    "bird_2": {
+      "angle": 0,
+      "id": "BIRD_YELLOW",
+      "x": 18.844,
+      "y": -30.46
+    },
+    "bird_3": {
+      "angle": 0,
+      "id": "BIRD_YELLOW",
+      "x": 15.998,
+      "y": -30.427
+    },
+    "bird_4": {
+      "angle": 0,
+      "id": "BIRD_YELLOW",
+      "x": 13.354,
+      "y": -30.302
+    },
+    "bird_5": {
+      "angle": 0,
+      "id": "BIRD_RED",
+      "x": 9.775,
+      "y": -30.361
+    },
+    "block_1": {
+      "angle": 360,
+      "id": "PIG_MUSTACHE",
+      "x": 119.016,
+      "y": -27.618
+    },
+    "block_10": {
+      "angle": 269.921,
+      "id": "WOOD_TRIANGLE_4X4",
+      "x": 107.845,
+      "y": -59.227
+    },
+    "block_100": {
+      "angle": 270.334,
+      "id": "WOOD_BLOCK_4X1",
+      "x": 124.489,
+      "y": -49.335
+    },
+    "block_11": {
+      "angle": 354,
+      "id": "MISC_BALLOON_YELLOW",
+      "x": 100.772,
+      "y": -46.784
+    },
+    "block_12": {
+      "angle": 360,
+      "id": "MISC_BALLOON_RED",
+      "x": 55.082,
+      "y": -29.542
+    },
+    "block_13": {
+      "angle": 90.938,
+      "id": "WOOD_BLOCK_4X4_HOLLOW",
+      "x": 94.377,
+      "y": -27.417
+    },
+    "block_14": {
+      "angle": 89.61,
+      "id": "WOOD_BLOCK_4X4_HOLLOW",
+      "x": 99.507,
+      "y": -27.399
+    },
+    "block_15": {
+      "angle": 89.521,
+      "id": "WOOD_BLOCK_4X4_HOLLOW",
+      "x": 103.425,
+      "y": -27.402
+    },
+    "block_16": {
+      "angle": 88.614,
+      "id": "WOOD_BLOCK_4X4_HOLLOW",
+      "x": 108.688,
+      "y": -27.431
+    },
+    "block_17": {
+      "angle": 270.029,
+      "id": "WOOD_BLOCK_4X4_HOLLOW",
+      "x": 111.885,
+      "y": -59.269
+    },
+    "block_18": {
+      "angle": 269.967,
+      "id": "WOOD_BLOCK_4X4_HOLLOW",
+      "x": 67.642,
+      "y": -31.628
+    },
+    "block_19": {
+      "angle": 359.966,
+      "id": "STONE_CIRCLE_2X2",
+      "x": 108.617,
+      "y": -49.27
+    },
+    "block_2": {
+      "angle": 354.612,
+      "id": "PIG_MUSTACHE",
+      "x": 101.742,
+      "y": -31.568
+    },
+    "block_20": {
+      "angle": 0,
+      "id": "MISC_GOLDEN_EGG",
+      "x": 114.806,
+      "y": -83.549
+    },
+    "block_21": {
+      "angle": 4,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 127.919,
+      "y": -4.866
+    },
+    "block_22": {
+      "angle": 1,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 128.326,
+      "y": -14.262
+    },
+    "block_23": {
+      "angle": 15,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 129.549,
+      "y": -22.616
+    },
+    "block_24": {
+      "angle": 357,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 130.182,
+      "y": -49.69
+    },
+    "block_25": {
+      "angle": 1,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 130.739,
+      "y": -31.039
+    },
+    "block_26": {
+      "angle": 1,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 130.866,
+      "y": -40.642
+    },
+    "block_27": {
+      "angle": 359,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 129.926,
+      "y": -59.193
+    },
+    "block_28": {
+      "angle": 4,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 71.228,
+      "y": -3.089
+    },
+    "block_29": {
+      "angle": 358,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 71.323,
+      "y": -12.173
+    },
+    "block_3": {
+      "angle": 359.776,
+      "id": "PIG_MUSTACHE",
+      "x": 64.635,
+      "y": -21.879
+    },
+    "block_30": {
+      "angle": 360,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 129.807,
+      "y": -68.457
+    },
+    "block_31": {
+      "angle": 4,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 130.205,
+      "y": -77.799
+    },
+    "block_32": {
+      "angle": 360,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 130.705,
+      "y": -86.799
+    },
+    "block_33": {
+      "angle": 358,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 5.219,
+      "y": -4.916
+    },
+    "block_34": {
+      "angle": 9,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 5.66,
+      "y": -13.035
+    },
+    "block_35": {
+      "angle": 5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 6.851,
+      "y": -22.24
+    },
+    "block_36": {
+      "angle": 359.6,
+      "id": "PIG_BASIC_SMALL",
+      "x": 69.966,
+      "y": -20.74
+    },
+    "block_37": {
+      "angle": 358.049,
+      "id": "PIG_BASIC_SMALL",
+      "x": 103.289,
+      "y": -38.207
+    },
+    "block_38": {
+      "angle": 0,
+      "id": "TERRAIN_TEXTURED_HILLS_32X2",
+      "x": 103.246,
+      "y": -23.24
+    },
+    "block_39": {
+      "angle": 0,
+      "id": "TERRAIN_TEXTURED_HILLS_32X2",
+      "x": 103.67,
+      "y": -24.526
+    },
+    "block_4": {
+      "angle": 359.991,
+      "id": "PIG_MUSTACHE",
+      "x": 112.15,
+      "y": -50.582
+    },
+    "block_40": {
+      "angle": 0,
+      "id": "TERRAIN_TEXTURED_HILLS_32X2",
+      "x": 124.575,
+      "y": -46.45
+    },
+    "block_41": {
+      "angle": 0,
+      "id": "TERRAIN_TEXTURED_HILLS_32X2",
+      "x": 124.646,
+      "y": -45.093
+    },
+    "block_42": {
+      "angle": 0,
+      "id": "TERRAIN_TEXTURED_HILLS_32X2",
+      "x": 70.172,
+      "y": -17.738
+    },
+    "block_43": {
+      "angle": 0,
+      "id": "TERRAIN_TEXTURED_HILLS_32X2",
+      "x": 70.172,
+      "y": -16.453
+    },
+    "block_44": {
+      "angle": 0,
+      "id": "TERRAIN_TEXTURED_HILLS_32X2",
+      "x": 10,
+      "y": -28.481
+    },
+    "block_45": {
+      "angle": 0,
+      "id": "TERRAIN_TEXTURED_HILLS_32X2",
+      "x": 10,
+      "y": -27.195
+    },
+    "block_46": {
+      "angle": 359.997,
+      "id": "WOOD_BLOCK_2X1",
+      "x": 115.904,
+      "y": -47.637
+    },
+    "block_47": {
+      "angle": 35,
+      "id": "TERRAIN_TEXTURED_HILLS_10X2",
+      "x": 120.181,
+      "y": -19.473
+    },
+    "block_48": {
+      "angle": 8,
+      "id": "TERRAIN_TEXTURED_HILLS_10X2",
+      "x": 114.06,
+      "y": -22.524
+    },
+    "block_49": {
+      "angle": 47,
+      "id": "TERRAIN_TEXTURED_HILLS_10X2",
+      "x": 121.029,
+      "y": -17.652
+    },
+    "block_5": {
+      "angle": 0.025,
+      "id": "WOOD_TRIANGLE_4X4_HOLLOW",
+      "x": 111.825,
+      "y": -63.184
+    },
+    "block_50": {
+      "angle": 135,
+      "id": "TERRAIN_TEXTURED_HILLS_10X2",
+      "x": 135.122,
+      "y": -30.809
+    },
+    "block_51": {
+      "angle": 24,
+      "id": "TERRAIN_TEXTURED_HILLS_10X2",
+      "x": 123.291,
+      "y": -77.202
+    },
+    "block_52": {
+      "angle": 12,
+      "id": "TERRAIN_TEXTURED_HILLS_10X2",
+      "x": 122.279,
+      "y": -78.286
+    },
+    "block_53": {
+      "angle": 145,
+      "id": "TERRAIN_TEXTURED_HILLS_10X2",
+      "x": 14.68,
+      "y": -24.422
+    },
+    "block_54": {
+      "angle": 220,
+      "id": "TERRAIN_TEXTURED_HILLS_10X2",
+      "x": 0,
+      "y": -24.211
+    },
+    "block_55": {
+      "angle": 220,
+      "id": "TERRAIN_TEXTURED_HILLS_10X2",
+      "x": 63.769,
+      "y": -13.288
+    },
+    "block_56": {
+      "angle": 350,
+      "id": "TERRAIN_TEXTURED_HILLS_5X2",
+      "x": 117.626,
+      "y": -18.707
+    },
+    "block_57": {
+      "angle": 135,
+      "id": "TERRAIN_TEXTURED_HILLS_5X2",
+      "x": 134.122,
+      "y": -8.166
+    },
+    "block_58": {
+      "angle": 225,
+      "id": "TERRAIN_TEXTURED_HILLS_5X2",
+      "x": 124.508,
+      "y": -43.042
+    },
+    "block_59": {
+      "angle": 327,
+      "id": "TERRAIN_TEXTURED_HILLS_5X2",
+      "x": 116.635,
+      "y": -78.138
+    },
+    "block_6": {
+      "angle": 359.97,
+      "id": "WOOD_TRIANGLE_4X4_HOLLOW",
+      "x": 67.582,
+      "y": -35.545
+    },
+    "block_60": {
+      "angle": 29,
+      "id": "TERRAIN_TEXTURED_HILLS_5X2",
+      "x": 116.38,
+      "y": -80.404
+    },
+    "block_61": {
+      "angle": 135,
+      "id": "TERRAIN_TEXTURED_HILLS_5X2",
+      "x": 10.727,
+      "y": -8.332
+    },
+    "block_62": {
+      "angle": 133,
+      "id": "TERRAIN_TEXTURED_HILLS_5X2",
+      "x": 77.262,
+      "y": -14.364
+    },
+    "block_63": {
+      "angle": 272.479,
+      "id": "WOOD_BLOCK_10X1",
+      "x": 97.044,
+      "y": -30.228
+    },
+    "block_64": {
+      "angle": 264.831,
+      "id": "WOOD_BLOCK_10X1",
+      "x": 105.818,
+      "y": -30.235
+    },
+    "block_65": {
+      "angle": 347.446,
+      "id": "WOOD_BLOCK_10X1",
+      "x": 92.1,
+      "y": -34.525
+    },
+    "block_66": {
+      "angle": 11.982,
+      "id": "WOOD_BLOCK_10X1",
+      "x": 110.409,
+      "y": -34.611
+    },
+    "block_67": {
+      "angle": 359.785,
+      "id": "WOOD_BLOCK_10X1",
+      "x": 101.394,
+      "y": -36.617
+    },
+    "block_68": {
+      "angle": 359.726,
+      "id": "WOOD_BLOCK_10X1",
+      "x": 72.849,
+      "y": -28.103
+    },
+    "block_69": {
+      "angle": 0.417,
+      "id": "WOOD_BLOCK_10X1",
+      "x": 63.052,
+      "y": -28.1
+    },
+    "block_7": {
+      "angle": 270.486,
+      "id": "WOOD_TRIANGLE_4X4",
+      "x": 63.659,
+      "y": -31.602
+    },
+    "block_70": {
+      "angle": 0.019,
+      "id": "WOOD_BLOCK_10X1",
+      "x": 81.112,
+      "y": -19.158
+    },
+    "block_71": {
+      "angle": 0.025,
+      "id": "WOOD_BLOCK_10X1",
+      "x": 111.727,
+      "y": -56.785
+    },
+    "block_72": {
+      "angle": 90.194,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 89.72,
+      "y": -29.402
+    },
+    "block_73": {
+      "angle": 89.863,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 113.254,
+      "y": -29.405
+    },
+    "block_74": {
+      "angle": 191.409,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 105.578,
+      "y": -40.951
+    },
+    "block_75": {
+      "angle": 168.891,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 97.401,
+      "y": -40.945
+    },
+    "block_76": {
+      "angle": 90.71,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 116.4,
+      "y": -52.194
+    },
+    "block_77": {
+      "angle": 90.49,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 107.205,
+      "y": -52.324
+    },
+    "block_78": {
+      "angle": 89.352,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 59.743,
+      "y": -23.641
+    },
+    "block_79": {
+      "angle": 89.807,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 75.588,
+      "y": -23.642
+    },
+    "block_8": {
+      "angle": 359.603,
+      "id": "WOOD_TRIANGLE_4X4",
+      "x": 71.646,
+      "y": -31.601
+    },
+    "block_80": {
+      "angle": 90.172,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 61.196,
+      "y": -23.64
+    },
+    "block_81": {
+      "angle": 88.438,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 67.966,
+      "y": -23.606
+    },
+    "block_82": {
+      "angle": 179.979,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 63.468,
+      "y": -19.169
+    },
+    "block_83": {
+      "angle": 179.859,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 71.799,
+      "y": -19.158
+    },
+    "block_84": {
+      "angle": 143.59,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 83.949,
+      "y": -22.416
+    },
+    "block_85": {
+      "angle": 0.074,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 101.351,
+      "y": -35.53
+    },
+    "block_86": {
+      "angle": 359.635,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 72.069,
+      "y": -29.157
+    },
+    "block_87": {
+      "angle": 0.479,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 63.766,
+      "y": -29.153
+    },
+    "block_88": {
+      "angle": 359.972,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 121.074,
+      "y": -51.853
+    },
+    "block_89": {
+      "angle": 359.997,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 110.904,
+      "y": -47.637
+    },
+    "block_9": {
+      "angle": 0.032,
+      "id": "WOOD_TRIANGLE_4X4",
+      "x": 115.817,
+      "y": -59.23
+    },
+    "block_90": {
+      "angle": 89.044,
+      "id": "WOOD_BLOCK_4X2",
+      "x": 111.68,
+      "y": -27.425
+    },
+    "block_91": {
+      "angle": 90.301,
+      "id": "WOOD_BLOCK_4X2",
+      "x": 91.378,
+      "y": -27.414
+    },
+    "block_92": {
+      "angle": 83.137,
+      "id": "WOOD_BLOCK_4X2",
+      "x": 95.367,
+      "y": -37.915
+    },
+    "block_93": {
+      "angle": 95.109,
+      "id": "WOOD_BLOCK_4X2",
+      "x": 107.363,
+      "y": -37.929
+    },
+    "block_94": {
+      "angle": 88.332,
+      "id": "WOOD_BLOCK_4X1",
+      "x": 101.539,
+      "y": -39.143
+    },
+    "block_95": {
+      "angle": 359.975,
+      "id": "WOOD_BLOCK_4X1",
+      "x": 57.011,
+      "y": -23.166
+    },
+    "block_96": {
+      "angle": 269.871,
+      "id": "WOOD_BLOCK_4X1",
+      "x": 55.749,
+      "y": -20.623
+    },
+    "block_97": {
+      "angle": 269.4,
+      "id": "WOOD_BLOCK_4X1",
+      "x": 58.704,
+      "y": -20.627
+    },
+    "block_98": {
+      "angle": 270.001,
+      "id": "WOOD_BLOCK_4X1",
+      "x": 117.84,
+      "y": -49.333
+    },
+    "block_99": {
+      "angle": 269.978,
+      "id": "WOOD_BLOCK_4X1",
+      "x": 121.246,
+      "y": -49.334
+    },
+    "joint_1": {
+      "collideConnected": false,
+      "index1": 19,
+      "index2": 59,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    }
+  }
+}

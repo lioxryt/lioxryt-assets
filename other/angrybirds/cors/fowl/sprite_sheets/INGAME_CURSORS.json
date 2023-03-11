@@ -1,0 +1,8 @@
+{
+	"image": "INGAME_CURSORS.png",
+	"spriteCount": 4,
+	"sprite_0": { "id": "CURSOR_HAND_POINT", "x": 1, "y": 1, "width": 40, "height": 53, "pivotx": 7, "pivoty": 6 },
+	"sprite_1": { "id": "CURSOR_HAND_CLICK", "x": 85, "y": 1, "width": 41, "height": 45, "pivotx": 8, "pivoty": -2 },
+	"sprite_2": { "id": "CURSOR_HAND_HOVER", "x": 43, "y": 1, "width": 40, "height": 53, "pivotx": 7, "pivoty": 6 },
+	"sprite_3": { "id": "CURSOR_HAND_GRAB", "x": 128, "y": 1, "width": 35, "height": 40, "pivotx": 2, "pivoty": -7 }
+}

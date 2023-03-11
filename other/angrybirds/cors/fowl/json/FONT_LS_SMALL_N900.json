@@ -1,0 +1,136 @@
+{
+	"name": "FONT_LS_SMALL_N900",
+	"leading": 37,
+	"spacing": -1,
+	"charCount": 16,
+	"chars": {
+		"char_0": {
+			"code": 48,
+			"x": 88,
+			"y": 2,
+			"width": 13,
+			"height": 19,
+			"baseline": 10
+		},
+		"char_1": {
+			"code": 51,
+			"x": 60,
+			"y": 23,
+			"width": 13,
+			"height": 19,
+			"baseline": 10
+		},
+		"char_2": {
+			"code": 189,
+			"x": 2,
+			"y": 2,
+			"width": 26,
+			"height": 21,
+			"baseline": 15
+		},
+		"char_3": {
+			"code": 47,
+			"x": 105,
+			"y": 23,
+			"width": 10,
+			"height": 19,
+			"baseline": 10
+		},
+		"char_4": {
+			"code": 58,
+			"x": 2,
+			"y": 47,
+			"width": 7,
+			"height": 13,
+			"baseline": 4
+		},
+		"char_5": {
+			"code": 163,
+			"x": 60,
+			"y": 2,
+			"width": 26,
+			"height": 19,
+			"baseline": 12
+		},
+		"char_6": {
+			"code": 53,
+			"x": 90,
+			"y": 23,
+			"width": 13,
+			"height": 19,
+			"baseline": 10
+		},
+		"char_7": {
+			"code": 32,
+			"x": 11,
+			"y": 47,
+			"width": 7,
+			"height": 10,
+			"baseline": 6
+		},
+		"char_8": {
+			"code": 52,
+			"x": 75,
+			"y": 23,
+			"width": 13,
+			"height": 19,
+			"baseline": 10
+		},
+		"char_9": {
+			"code": 55,
+			"x": 46,
+			"y": 24,
+			"width": 12,
+			"height": 19,
+			"baseline": 10
+		},
+		"char_10": {
+			"code": 50,
+			"x": 103,
+			"y": 2,
+			"width": 13,
+			"height": 19,
+			"baseline": 10
+		},
+		"char_11": {
+			"code": 124,
+			"x": 2,
+			"y": 25,
+			"width": 22,
+			"height": 20,
+			"baseline": 12
+		},
+		"char_12": {
+			"code": 54,
+			"x": 46,
+			"y": 2,
+			"width": 12,
+			"height": 20,
+			"baseline": 10
+		},
+		"char_13": {
+			"code": 49,
+			"x": 117,
+			"y": 23,
+			"width": 9,
+			"height": 19,
+			"baseline": 10
+		},
+		"char_14": {
+			"code": 56,
+			"x": 30,
+			"y": 2,
+			"width": 14,
+			"height": 20,
+			"baseline": 10
+		},
+		"char_15": {
+			"code": 57,
+			"x": 30,
+			"y": 24,
+			"width": 14,
+			"height": 20,
+			"baseline": 10
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	 "CHALLENGE_SET":
+	 [ {"type": "DESTROY", "amount": 20, "object": "MISC_FOOD_STRAWBERRY" },
+	   {"type": "DESTROY", "amount": 10, "object": "ANY_PIG"},
+	   {"type": "DESTROY", "amount": 20, "object": "ANY_PIG", "withObject": "ANY_BIRD"} ]
+
+
+
+ }

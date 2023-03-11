@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html manifest="/manifest/fowl.manifest">
+	<head></head>
+	<body style="background-color: #0f0; margin: 0px;">
+    ApplicationCacheInstaller.html
+    <pre id='status'></pre>
+    <script type="text/javascript">
+var appcache = window.applicationCache;
+appcache.addEventListener('cached', logEvent, false);
+appcache.addEventListener('checking', logEvent, false);
+appcache.addEventListener('downloading', logEvent, false);
+appcache.addEventListener('error', logEvent, false);
+appcache.addEventListener('noupdate', logEvent, false);
+appcache.addEventListener('obsolete', logEvent, false);
+appcache.addEventListener('progress', logEvent, false);
+appcache.addEventListener('updateready', logEvent, false);
+
+if (window.applicationCache !== undefined && window.applicationCache.status == window.applicationCache.IDLE){
+	changeButtonToInstalled();
+}
+
+function setStatus(message) {
+    window.parent.document.getElementById("tooltip").innerHTML = message;
+}
+
+function changeButtonToInstalled() {
+    window.parent.document.getElementById("installButton").id = "offlineInstalled";
+}
+
+function logEvent(e) {
+    switch (e.type) {
+      case "progress":
+        message = "Installing offline version...";
+        if (e.lengthComputable) {
+          message += Math.round(e.loaded / e.total * 100) + "%";
+        }
+        break;
+      case "noupdate":
+        message = "You're running the latest offline capable version.";
+        changeButtonToInstalled();
+        break;
+      case "obsolete":
+        message = "Offline mode has been uninstalled.";
+        break;
+      case "cached":
+        message = "We're ready to play offline!";
+        changeButtonToInstalled();
+        break;
+      case "checking":
+        message = "Checking for a new version...";
+        break;
+      case "downloading":
+        message = "Downloading...";
+        break;
+      case "updateready":
+        message = "A new version is ready. Click to <a href='javascript:window.location.reload();' onclick='return confirm(\"This will restart your game. Continue?\");'>upgrade</a>.";
+        window.parent.appCacheUpdateReady();
+        break;
+      case "error":
+        switch (window.applicationCache.status) {
+          case window.applicationCache.IDLE:
+            message = "We're ready to play offline!";
+            break;
+          case window.applicationCache.UNCACHED:
+            message = "Error loading offline version. Please <a href='javascript:window.location.reload();' onclick='return confirm(\"This will restart your game. Continue?\");'>try again</a>.";
+            break;
+          case window.applicationCache.CHECKING:
+          case window.applicationCache.DOWNLOADING:
+          case window.applicationCache.UPDATEREADY:
+          case window.applicationCache.OBSOLETE:
+          default:
+            message = "Error " + window.applicationCache.status + " loading offline version. Please <a href='javascript:window.location.reload();' onclick='return confirm(\"This will restart your game. Continue?\");'>try again</a>.";
+            break;
+        }
+        break;
+      default:
+        message = "[" + e.type + "]";
+    }
+    document.getElementById("status").innerHTML += e.type + ": " + message + "\n";
+    setStatus(message);
+}
+    </script>
+  </body>
+</html>

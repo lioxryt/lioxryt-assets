@@ -1,0 +1,5 @@
+{
+	"image": "INGAME_GROUNDBLOCKS.png",
+	"spriteCount": 1,
+	"sprite_0": { "id": "THEME_GROUND_TEXTURE_CHERRY", "x": 1, "y": 1, "width": 256, "height": 256, "pivotx": 0, "pivoty": 0 }
+}

@@ -1,0 +1,2472 @@
+{
+  "camera": [
+    {
+      "bottom": 13.106,
+      "id": "Slingshot",
+      "left": -28.249,
+      "right": 63.282,
+      "top": -55.542,
+      "x": 65.408,
+      "y": -21.218
+    },
+    {
+      "bottom": 13.374,
+      "id": "Castle",
+      "left": -2.774,
+      "right": 88.757,
+      "top": -55.274,
+      "x": 90.883,
+      "y": -20.95
+    }
+  ],
+  "counts": {
+    "birds": 3,
+    "blocks": 143,
+    "joints": 145
+  },
+  "id": "pack-summer-pignic/LevelS_3star.lua",
+  "theme":"BACKGROUND_SUMMERPIGNIC",
+  "scoreEagle": 92000,
+  "scoreGold": 2000,
+  "scoreSilver": 1000,
+  "world": {
+    "bird_1": {
+      "angle": 0,
+      "id": "BIRD_BLACK",
+      "x": 41.501,
+      "y": -3.951
+    },
+    "bird_2": {
+      "angle": 0,
+      "id": "BIRD_BLACK",
+      "x": 36.285,
+      "y": -4.035
+    },
+    "bird_3": {
+      "angle": 0,
+      "id": "BIRD_BLACK",
+      "x": 32.509,
+      "y": -1.945
+    },
+    "block_1": {
+      "angle": 67.5,
+      "id": "MISC_FOOD_STRAWBERRY",
+      "x": 80.693,
+      "y": -25.419
+    },
+    "block_10": {
+      "angle": 0,
+      "id": "B_LEMONADE_GLASS",
+      "x": 86.056,
+      "y": -0.799
+    },
+    "block_100": {
+      "angle": 67.5,
+      "id": "B_LEMON_SLICE",
+      "x": 78.425,
+      "y": -13.773
+    },
+    "block_101": {
+      "angle": 34,
+      "id": "MISC_FOOD_STRAWBERRY",
+      "x": 79.352,
+      "y": -41.866
+    },
+    "block_102": {
+      "angle": 202.5,
+      "id": "B_LEMON_SLICE",
+      "x": 82.072,
+      "y": -7.002
+    },
+    "block_103": {
+      "angle": 180.364,
+      "id": "STONE_BLOCK_8X1",
+      "x": 80.292,
+      "y": -2.667
+    },
+    "block_104": {
+      "angle": 45,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 145.077,
+      "y": -0.064
+    },
+    "block_105": {
+      "angle": 22.5,
+      "id": "MISC_FOOD_DONUT",
+      "x": 81.676,
+      "y": -23.721
+    },
+    "block_106": {
+      "angle": 67.5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 141.591,
+      "y": -5.338
+    },
+    "block_107": {
+      "angle": 22.5,
+      "id": "MISC_FOOD_DONUT",
+      "x": 78.279,
+      "y": -33.911
+    },
+    "block_108": {
+      "angle": 0,
+      "id": "WOOD_BLOCK_10X1",
+      "x": 93.334,
+      "y": -2.637
+    },
+    "block_109": {
+      "angle": 337.5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 150.619,
+      "y": 3.333
+    },
+    "block_11": {
+      "angle": 0,
+      "id": "B_FOOD_BASKET",
+      "x": 72.865,
+      "y": -1.183
+    },
+    "block_110": {
+      "angle": 22.5,
+      "id": "MISC_FOOD_DONUT",
+      "x": 81.305,
+      "y": -12.552
+    },
+    "block_111": {
+      "angle": 22.5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 148.474,
+      "y": 3.69
+    },
+    "block_112": {
+      "angle": 337.5,
+      "id": "MISC_FOOD_DONUT",
+      "x": 78.726,
+      "y": -20.235
+    },
+    "block_113": {
+      "angle": 22.5,
+      "id": "B_ICECREAM_BALL",
+      "x": 99.374,
+      "y": -7.006
+    },
+    "block_114": {
+      "angle": 90,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 139.267,
+      "y": -9.539
+    },
+    "block_115": {
+      "angle": 0,
+      "id": "MISC_FOOD_DONUT",
+      "x": 79.441,
+      "y": -40.079
+    },
+    "block_116": {
+      "angle": 112.5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 135.781,
+      "y": -11.148
+    },
+    "block_117": {
+      "angle": 337.5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 133.01,
+      "y": -4.444
+    },
+    "block_118": {
+      "angle": 0,
+      "id": "MISC_FOOD_DONUT",
+      "x": 78.139,
+      "y": -7.717
+    },
+    "block_119": {
+      "angle": 337.5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 127.111,
+      "y": 1.992
+    },
+    "block_12": {
+      "angle": 0,
+      "id": "B_KIELO",
+      "x": 125.092,
+      "y": -20.233
+    },
+    "block_120": {
+      "angle": 90,
+      "id": "MISC_FOOD_DONUT",
+      "x": 84.548,
+      "y": -7.987
+    },
+    "block_121": {
+      "angle": 76.5,
+      "id": "B_FLOWER_VINE_1",
+      "x": 122.145,
+      "y": -16.983
+    },
+    "block_122": {
+      "angle": 337.5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 136.586,
+      "y": 3.511
+    },
+    "block_123": {
+      "angle": 327.5,
+      "id": "B_FLOWER_VINE_1",
+      "x": 104.612,
+      "y": -25.142
+    },
+    "block_124": {
+      "angle": 22.5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 29.237,
+      "y": 4.163
+    },
+    "block_125": {
+      "angle": 45,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 26.109,
+      "y": 0.766
+    },
+    "block_126": {
+      "angle": 53,
+      "id": "B_KITE",
+      "x": 100.43,
+      "y": -33.31
+    },
+    "block_127": {
+      "angle": 67.5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 21.81,
+      "y": -3.794
+    },
+    "block_128": {
+      "angle": 200.5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 4.112,
+      "y": -8.799
+    },
+    "block_129": {
+      "angle": 116.5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 118.075,
+      "y": 0.479
+    },
+    "block_13": {
+      "angle": 0,
+      "id": "PIG_BASIC_SMALL",
+      "x": 68.963,
+      "y": -6.642
+    },
+    "block_130": {
+      "angle": 178,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 5.81,
+      "y": -12.107
+    },
+    "block_131": {
+      "angle": 290.5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 10.994,
+      "y": -3.079
+    },
+    "block_132": {
+      "angle": 268,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 0,
+      "y": 0.854
+    },
+    "block_133": {
+      "angle": 245.5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 0.805,
+      "y": -1.738
+    },
+    "block_134": {
+      "angle": 110.5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 16.894,
+      "y": -7.28
+    },
+    "block_135": {
+      "angle": 223,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 2.95,
+      "y": -4.419
+    },
+    "block_136": {
+      "angle": 89,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 19.754,
+      "y": -5.224
+    },
+    "block_137": {
+      "angle": 155.5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 9.743,
+      "y": -13.537
+    },
+    "block_138": {
+      "angle": 133,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 12.425,
+      "y": -10.23
+    },
+    "block_139": {
+      "angle": 166,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 131.58,
+      "y": -14.455
+    },
+    "block_14": {
+      "angle": 0,
+      "id": "PIG_BASIC_SMALL",
+      "x": 68.974,
+      "y": -3.871
+    },
+    "block_140": {
+      "angle": 180,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 128.63,
+      "y": -13.383
+    },
+    "block_141": {
+      "angle": 202.5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 126.575,
+      "y": -9.45
+    },
+    "block_142": {
+      "angle": 225,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 123.796,
+      "y": -6.314
+    },
+    "block_143": {
+      "angle": 165.501,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 121.74,
+      "y": -2.56
+    },
+    "block_15": {
+      "angle": 0,
+      "id": "PIG_BASIC_SMALL",
+      "x": 68.973,
+      "y": -5.301
+    },
+    "block_16": {
+      "angle": 158.095,
+      "id": "WOOD_BLOCK_4X1",
+      "x": 84.15,
+      "y": -4.176
+    },
+    "block_17": {
+      "angle": 22.5,
+      "id": "MISC_FOOD_STRAWBERRY",
+      "x": 80.514,
+      "y": -29.174
+    },
+    "block_18": {
+      "angle": 0,
+      "id": "B_STRAWHAT_2",
+      "x": 95.888,
+      "y": -6.47
+    },
+    "block_19": {
+      "angle": 0,
+      "id": "MISC_ESTRADE_9X3",
+      "x": 39.32,
+      "y": -1.473
+    },
+    "block_2": {
+      "angle": 332,
+      "id": "MISC_FOOD_STRAWBERRY",
+      "x": 77.117,
+      "y": -19.252
+    },
+    "block_20": {
+      "angle": 23.087,
+      "id": "WOOD_BLOCK_4X1",
+      "x": 76.642,
+      "y": -4.254
+    },
+    "block_21": {
+      "angle": 0,
+      "id": "B_FLOWER_6",
+      "x": 109.565,
+      "y": -5.576
+    },
+    "block_22": {
+      "angle": 0.587,
+      "id": "WOOD_BLOCK_4X1",
+      "x": 80.388,
+      "y": -3.5
+    },
+    "block_23": {
+      "angle": 339.5,
+      "id": "B_FLOWER_4",
+      "x": 115.363,
+      "y": -10.404
+    },
+    "block_24": {
+      "angle": 337.5,
+      "id": "B_VARSI_2",
+      "x": 62.102,
+      "y": -1.643
+    },
+    "block_25": {
+      "angle": 22.5,
+      "id": "B_SUMMER_GRASS_2",
+      "x": 20.261,
+      "y": -11.566
+    },
+    "block_26": {
+      "angle": 347.5,
+      "id": "B_SUMMER_GRASS_2",
+      "x": 130.042,
+      "y": -19.56
+    },
+    "block_27": {
+      "angle": 65.5,
+      "id": "B_SUMMER_GRASS_2",
+      "x": 13.825,
+      "y": -17.197
+    },
+    "block_28": {
+      "angle": 45,
+      "id": "MISC_FOOD_APPLE",
+      "x": 80.425,
+      "y": -34.984
+    },
+    "block_29": {
+      "angle": 22.5,
+      "id": "B_VARSI_2",
+      "x": 107.956,
+      "y": -1.375
+    },
+    "block_3": {
+      "angle": 22.5,
+      "id": "MISC_FOOD_STRAWBERRY",
+      "x": 78.917,
+      "y": -9.507
+    },
+    "block_30": {
+      "angle": 0,
+      "id": "B_VARSI_2",
+      "x": 103.755,
+      "y": -1.464
+    },
+    "block_31": {
+      "angle": 352,
+      "id": "B_VARSI_1",
+      "x": 116.017,
+      "y": -7.191
+    },
+    "block_32": {
+      "angle": 38,
+      "id": "MISC_PROP_WHITE_EGG",
+      "x": 78.726,
+      "y": -36.325
+    },
+    "block_33": {
+      "angle": 22.5,
+      "id": "MISC_PROP_WHITE_EGG",
+      "x": 77.373,
+      "y": -15.762
+    },
+    "block_34": {
+      "angle": 22.5,
+      "id": "MISC_PROP_WHITE_EGG",
+      "x": 82.242,
+      "y": -17.082
+    },
+    "block_35": {
+      "angle": 323.475,
+      "id": "MISC_FOOD_BANANA",
+      "x": 79.173,
+      "y": -35.699
+    },
+    "block_36": {
+      "angle": 337.5,
+      "id": "MISC_PROP_WHITE_EGG",
+      "x": 78.816,
+      "y": -25.866
+    },
+    "block_37": {
+      "angle": 328.001,
+      "id": "B_FLOWER_VINE_2",
+      "x": 102.387,
+      "y": -28.784
+    },
+    "block_38": {
+      "angle": 18.5,
+      "id": "MISC_PROP_WHITE_EGG",
+      "x": 79.888,
+      "y": -30.783
+    },
+    "block_39": {
+      "angle": 292.5,
+      "id": "B_SUMMER_GRASS_1",
+      "x": 122.66,
+      "y": -13.368
+    },
+    "block_4": {
+      "angle": 22.5,
+      "id": "MISC_FOOD_STRAWBERRY",
+      "x": 84.574,
+      "y": -6.018
+    },
+    "block_40": {
+      "angle": 233.475,
+      "id": "MISC_FOOD_BANANA",
+      "x": 83.655,
+      "y": -11.026
+    },
+    "block_41": {
+      "angle": 22.5,
+      "id": "MISC_PROP_WHITE_EGG",
+      "x": 80.194,
+      "y": -8.164
+    },
+    "block_42": {
+      "angle": 323.475,
+      "id": "MISC_FOOD_BANANA",
+      "x": 82.518,
+      "y": -5.393
+    },
+    "block_43": {
+      "angle": 337.5,
+      "id": "MISC_PROP_WHITE_EGG",
+      "x": 76.146,
+      "y": -7.809
+    },
+    "block_44": {
+      "angle": 98.475,
+      "id": "MISC_FOOD_BANANA",
+      "x": 82.391,
+      "y": -20.861
+    },
+    "block_45": {
+      "angle": 22.5,
+      "id": "MISC_PROP_WHITE_EGG",
+      "x": 83.52,
+      "y": -13.147
+    },
+    "block_46": {
+      "angle": 273.475,
+      "id": "MISC_FOOD_BANANA",
+      "x": 85.707,
+      "y": -6.999
+    },
+    "block_47": {
+      "angle": 315,
+      "id": "B_SUMMER_GRASS_1",
+      "x": 119.889,
+      "y": -9.792
+    },
+    "block_48": {
+      "angle": 356.5,
+      "id": "B_SUMMER_GRASS_1",
+      "x": 3.446,
+      "y": -17.076
+    },
+    "block_49": {
+      "angle": 43,
+      "id": "B_SUMMER_GRASS_1",
+      "x": 16.102,
+      "y": -13.63
+    },
+    "block_5": {
+      "angle": 10,
+      "id": "MISC_FOOD_STRAWBERRY",
+      "x": 79.587,
+      "y": -14.041
+    },
+    "block_50": {
+      "angle": 45,
+      "id": "B_SUMMER_GRASS_1",
+      "x": 29.379,
+      "y": -3.432
+    },
+    "block_51": {
+      "angle": 0,
+      "id": "PIG_BASIC_MEDIUM",
+      "x": 95.837,
+      "y": -4.911
+    },
+    "block_52": {
+      "angle": 315,
+      "id": "MISC_FOOD_APPLE",
+      "x": 75.412,
+      "y": -6.555
+    },
+    "block_53": {
+      "angle": 22.5,
+      "id": "MISC_FOOD_APPLE",
+      "x": 76.211,
+      "y": -9.96
+    },
+    "block_54": {
+      "angle": 22.5,
+      "id": "MISC_FOOD_APPLE",
+      "x": 80.514,
+      "y": -21.576
+    },
+    "block_55": {
+      "angle": 22.5,
+      "id": "MISC_FOOD_APPLE",
+      "x": 79.21,
+      "y": -15.494
+    },
+    "block_56": {
+      "angle": 337.5,
+      "id": "MISC_FOOD_APPLE",
+      "x": 78.905,
+      "y": -27.922
+    },
+    "block_57": {
+      "angle": 0,
+      "id": "B_VARSI_3",
+      "x": 65.409,
+      "y": -1.643
+    },
+    "block_58": {
+      "angle": 0,
+      "id": "PIG_MUSTACHE",
+      "x": 90.793,
+      "y": -5.358
+    },
+    "block_59": {
+      "angle": 96,
+      "id": "TERRAIN_TEXTURED_HILLS_5X5",
+      "x": 118.693,
+      "y": -1.796
+    },
+    "block_6": {
+      "angle": 112.5,
+      "id": "MISC_FOOD_STRAWBERRY",
+      "x": 82.85,
+      "y": -10.669
+    },
+    "block_60": {
+      "angle": 45,
+      "id": "TERRAIN_TEXTURED_HILLS_5X5",
+      "x": 134.771,
+      "y": -15.229
+    },
+    "block_61": {
+      "angle": 180,
+      "id": "TERRAIN_TEXTURED_HILLS_5X5",
+      "x": 82.25,
+      "y": 9.212
+    },
+    "block_62": {
+      "angle": 22.5,
+      "id": "MISC_FOOD_APPLE",
+      "x": 80.884,
+      "y": -10.401
+    },
+    "block_63": {
+      "angle": 22.5,
+      "id": "B_ICECREAM_CONE",
+      "x": 98.659,
+      "y": -4.861
+    },
+    "block_64": {
+      "angle": 22.5,
+      "id": "MISC_FOOD_APPLE",
+      "x": 81.267,
+      "y": -6.108
+    },
+    "block_65": {
+      "angle": 194.5,
+      "id": "B_KITE_TAIL",
+      "x": 101.51,
+      "y": -25.075
+    },
+    "block_66": {
+      "angle": 22.5,
+      "id": "B_KITE_TAIL",
+      "x": 99.218,
+      "y": -27.84
+    },
+    "block_67": {
+      "angle": 180.258,
+      "id": "STONE_BLOCK_2X2",
+      "x": 83.146,
+      "y": -1.192
+    },
+    "block_68": {
+      "angle": 180.258,
+      "id": "STONE_BLOCK_2X2",
+      "x": 96.014,
+      "y": -1.098
+    },
+    "block_69": {
+      "angle": 180.373,
+      "id": "STONE_BLOCK_2X2",
+      "x": 77.607,
+      "y": -1.309
+    },
+    "block_7": {
+      "angle": 112.5,
+      "id": "MISC_FOOD_STRAWBERRY",
+      "x": 80.433,
+      "y": -16.703
+    },
+    "block_70": {
+      "angle": 0,
+      "id": "B_FLOWER_3",
+      "x": 65.141,
+      "y": -4.324
+    },
+    "block_71": {
+      "angle": 241.5,
+      "id": "MISC_FOOD_HAM",
+      "x": 76.976,
+      "y": -5.929
+    },
+    "block_72": {
+      "angle": 0,
+      "id": "MISC_FOOD_HAM",
+      "x": 80.425,
+      "y": -27.118
+    },
+    "block_73": {
+      "angle": 202.5,
+      "id": "MISC_FOOD_HAM",
+      "x": 81.169,
+      "y": -18.78
+    },
+    "block_74": {
+      "angle": 337.5,
+      "id": "MISC_FOOD_HAM",
+      "x": 79.007,
+      "y": -11.652
+    },
+    "block_75": {
+      "angle": 0,
+      "id": "B_LEMONADE_CAN",
+      "x": 68.664,
+      "y": -1.799
+    },
+    "block_76": {
+      "angle": 0,
+      "id": "TERRAIN_TEXTURED_HILLS_5X2",
+      "x": 81.23,
+      "y": 12.033
+    },
+    "block_77": {
+      "angle": 0,
+      "id": "B_FLOWER_7",
+      "x": 60.225,
+      "y": -5.933
+    },
+    "block_78": {
+      "angle": 45,
+      "id": "TERRAIN_TEXTURED_HILLS_5X2",
+      "x": 133.934,
+      "y": -73.699
+    },
+    "block_79": {
+      "angle": 282.5,
+      "id": "B_FLOWER_VINE_1",
+      "x": 113.986,
+      "y": -16.241
+    },
+    "block_8": {
+      "angle": 337.5,
+      "id": "MISC_FOOD_STRAWBERRY",
+      "x": 76.441,
+      "y": -13.705
+    },
+    "block_80": {
+      "angle": 260.5,
+      "id": "B_FLOWER_VINE_2",
+      "x": 118.032,
+      "y": -16.308
+    },
+    "block_81": {
+      "angle": 308,
+      "id": "B_FLOWER_VINE_2",
+      "x": 110.412,
+      "y": -18.062
+    },
+    "block_82": {
+      "angle": 325,
+      "id": "B_FLOWER_VINE_2",
+      "x": 107.04,
+      "y": -21.568
+    },
+    "block_83": {
+      "angle": 45,
+      "id": "MISC_FOOD_WATERMELON",
+      "x": 78.764,
+      "y": -17.961
+    },
+    "block_84": {
+      "angle": 7,
+      "id": "MISC_FOOD_WATERMELON",
+      "x": 79.263,
+      "y": -23.542
+    },
+    "block_85": {
+      "angle": 112.5,
+      "id": "MISC_FOOD_WATERMELON",
+      "x": 77.056,
+      "y": -11.487
+    },
+    "block_86": {
+      "angle": 0,
+      "id": "B_FLOWER_5",
+      "x": 103.577,
+      "y": -5.665
+    },
+    "block_87": {
+      "angle": 22.5,
+      "id": "MISC_FOOD_WATERMELON",
+      "x": 81.77,
+      "y": -14.8
+    },
+    "block_88": {
+      "angle": 180.373,
+      "id": "STONE_BLOCK_2X2",
+      "x": 90.565,
+      "y": -1.126
+    },
+    "block_89": {
+      "angle": 337.5,
+      "id": "MISC_FOOD_WATERMELON",
+      "x": 78.905,
+      "y": -31.855
+    },
+    "block_9": {
+      "angle": 0,
+      "id": "B_KIELO",
+      "x": 10.134,
+      "y": -20.774
+    },
+    "block_90": {
+      "angle": 22.5,
+      "id": "MISC_FOOD_WATERMELON",
+      "x": 79.569,
+      "y": -5.661
+    },
+    "block_91": {
+      "angle": 22.5,
+      "id": "MISC_FOOD_WATERMELON",
+      "x": 82.582,
+      "y": -8.702
+    },
+    "block_92": {
+      "angle": 0,
+      "id": "B_HIPPIE_GLASSES_1",
+      "x": 90.883,
+      "y": -6.648
+    },
+    "block_93": {
+      "angle": 67.5,
+      "id": "B_LEMON_SLICE",
+      "x": 78.726,
+      "y": -37.844
+    },
+    "block_94": {
+      "angle": 117,
+      "id": "B_LEMON_SLICE",
+      "x": 78.369,
+      "y": -21.397
+    },
+    "block_95": {
+      "angle": 22.5,
+      "id": "B_LEMON_SLICE",
+      "x": 78.994,
+      "y": -29.71
+    },
+    "block_96": {
+      "angle": 135,
+      "id": "MISC_FOOD_STRAWBERRY",
+      "x": 79.62,
+      "y": -38.023
+    },
+    "block_97": {
+      "angle": 90,
+      "id": "B_LEMON_SLICE",
+      "x": 77.666,
+      "y": -8.971
+    },
+    "block_98": {
+      "angle": 0,
+      "id": "B_STRAWHAT_1",
+      "x": 68.983,
+      "y": -7.542
+    },
+    "block_99": {
+      "angle": 34,
+      "id": "MISC_FOOD_STRAWBERRY",
+      "x": 79.978,
+      "y": -33.643
+    },
+    "joint_1": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 76,
+      "index2": 23,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": true,
+      "motorSpeed": -1.2999999523162842,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_10": {
+      "collideConnected": false,
+      "index1": 94,
+      "index2": 37,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_100": {
+      "collideConnected": false,
+      "index1": 33,
+      "index2": 86,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_101": {
+      "collideConnected": false,
+      "index1": 41,
+      "index2": 15,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_102": {
+      "collideConnected": false,
+      "index1": 60,
+      "index2": 68,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_103": {
+      "collideConnected": false,
+      "index1": 53,
+      "index2": 83,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_104": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 36,
+      "index2": 125,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": -0.06793279945850372,
+      "x2": 2.217060089111328,
+      "y1": -2.24360990524292,
+      "y2": 0.9939600229263306
+    },
+    "joint_105": {
+      "collideConnected": false,
+      "index1": 111,
+      "index2": 53,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_106": {
+      "collideConnected": false,
+      "index1": 60,
+      "index2": 66,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_107": {
+      "collideConnected": false,
+      "index1": 46,
+      "index2": 141,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_108": {
+      "collideConnected": false,
+      "index1": 54,
+      "index2": 99,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_109": {
+      "collideConnected": false,
+      "index1": 106,
+      "index2": 88,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_11": {
+      "collideConnected": false,
+      "index1": 133,
+      "index2": 24,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_110": {
+      "collideConnected": false,
+      "index1": 106,
+      "index2": 98,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_111": {
+      "collideConnected": false,
+      "index1": 102,
+      "index2": 68,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_112": {
+      "collideConnected": false,
+      "index1": 56,
+      "index2": 75,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_113": {
+      "collideConnected": false,
+      "index1": 128,
+      "index2": 30,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_114": {
+      "collideConnected": false,
+      "index1": 84,
+      "index2": 73,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_115": {
+      "collideConnected": false,
+      "index1": 84,
+      "index2": 7,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_116": {
+      "collideConnected": false,
+      "index1": 101,
+      "index2": 90,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_117": {
+      "collideConnected": false,
+      "index1": 95,
+      "index2": 92,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_118": {
+      "collideConnected": false,
+      "index1": 71,
+      "index2": 55,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_119": {
+      "collideConnected": false,
+      "index1": 99,
+      "index2": 4,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_12": {
+      "collideConnected": false,
+      "index1": 82,
+      "index2": 32,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_120": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 80,
+      "index2": 81,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": -0.11130800098180771,
+      "x2": -0.08866920322179794,
+      "y1": -2.2235500812530518,
+      "y2": 2.2429299354553223
+    },
+    "joint_121": {
+      "collideConnected": false,
+      "index1": 32,
+      "index2": 99,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_122": {
+      "collideConnected": false,
+      "index1": 0,
+      "index2": 71,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_123": {
+      "collideConnected": false,
+      "index1": 106,
+      "index2": 34,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_124": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 120,
+      "index2": 79,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": -0.08405189961194992,
+      "x2": -0.07898949831724167,
+      "y1": 1.5055700540542603,
+      "y2": 2.1063599586486816
+    },
+    "joint_125": {
+      "collideConnected": false,
+      "index1": 93,
+      "index2": 83,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_126": {
+      "collideConnected": false,
+      "index1": 61,
+      "index2": 73,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_127": {
+      "collideConnected": false,
+      "index1": 104,
+      "index2": 0,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_128": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 122,
+      "index2": 36,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": 0.005958059802651405,
+      "x2": -0.024511000141501427,
+      "y1": -1.5153700113296509,
+      "y2": 2.2667300701141357
+    },
+    "joint_129": {
+      "collideConnected": false,
+      "index1": 6,
+      "index2": 86,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_13": {
+      "collideConnected": false,
+      "index1": 70,
+      "index2": 19,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_130": {
+      "backAndForth": true,
+      "collideConnected": false,
+      "index1": 77,
+      "index2": 125,
+      "limit": true,
+      "lowerLimit": -0.34906598925590515,
+      "maxTorque": 55800,
+      "motor": true,
+      "motorSpeed": 0.10000000149011612,
+      "type": 3,
+      "upperLimit": 0,
+      "x1": 10.7878999710083,
+      "x2": -0.1362909972667694,
+      "y1": 39.094398498535156,
+      "y2": -0.5191059708595276
+    },
+    "joint_131": {
+      "collideConnected": false,
+      "index1": 72,
+      "index2": 43,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_132": {
+      "collideConnected": false,
+      "index1": 50,
+      "index2": 17,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_133": {
+      "collideConnected": false,
+      "index1": 101,
+      "index2": 41,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_134": {
+      "collideConnected": false,
+      "index1": 19,
+      "index2": 21,
+      "type": 2,
+      "x1": 0,
+      "x2": -1.2672100067138672,
+      "y1": 0,
+      "y2": -0.05707719922065735
+    },
+    "joint_135": {
+      "collideConnected": false,
+      "index1": 101,
+      "index2": 119,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_136": {
+      "collideConnected": false,
+      "index1": 44,
+      "index2": 39,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_137": {
+      "collideConnected": false,
+      "index1": 90,
+      "index2": 40,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_138": {
+      "collideConnected": false,
+      "index1": 52,
+      "index2": 84,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_139": {
+      "collideConnected": false,
+      "index1": 34,
+      "index2": 31,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_14": {
+      "collideConnected": false,
+      "index1": 109,
+      "index2": 61,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_140": {
+      "collideConnected": false,
+      "index1": 95,
+      "index2": 114,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_141": {
+      "collideConnected": false,
+      "index1": 2,
+      "index2": 40,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_142": {
+      "collideConnected": false,
+      "index1": 0,
+      "index2": 83,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_143": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 78,
+      "index2": 80,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": -0.05833020061254501,
+      "x2": -0.11949100345373154,
+      "y1": -1.6396600008010864,
+      "y2": 2.147209882736206
+    },
+    "joint_144": {
+      "collideConnected": false,
+      "index1": 55,
+      "index2": 94,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_145": {
+      "collideConnected": false,
+      "index1": 33,
+      "index2": 6,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_15": {
+      "collideConnected": false,
+      "index1": 89,
+      "index2": 70,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_16": {
+      "collideConnected": false,
+      "index1": 82,
+      "index2": 72,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_17": {
+      "collideConnected": false,
+      "index1": 88,
+      "index2": 37,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_18": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 81,
+      "index2": 122,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": -0.11566899716854095,
+      "x2": -0.11965200304985046,
+      "y1": -2.303679943084717,
+      "y2": 1.4429399967193604
+    },
+    "joint_19": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 65,
+      "index2": 125,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": -0.5614870190620422,
+      "x2": 2.2955100536346436,
+      "y1": -1.8841099739074707,
+      "y2": 3.724720001220703
+    },
+    "joint_2": {
+      "collideConnected": false,
+      "index1": 31,
+      "index2": 106,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_20": {
+      "collideConnected": false,
+      "index1": 119,
+      "index2": 3,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_21": {
+      "collideConnected": false,
+      "index1": 47,
+      "index2": 129,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_22": {
+      "collideConnected": false,
+      "index1": 66,
+      "index2": 102,
+      "type": 2,
+      "x1": 0,
+      "x2": -0.7072640061378479,
+      "y1": 0,
+      "y2": -0.07532770186662674
+    },
+    "joint_23": {
+      "collideConnected": false,
+      "index1": 51,
+      "index2": 70,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_24": {
+      "collideConnected": false,
+      "index1": 82,
+      "index2": 6,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_25": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 120,
+      "index2": 139,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": 1.1996999819530174E-4,
+      "x2": 4.664569854736328,
+      "y1": -1.7336900234222412,
+      "y2": 4.139530181884766
+    },
+    "joint_26": {
+      "collideConnected": false,
+      "index1": 119,
+      "index2": 90,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_27": {
+      "collideConnected": false,
+      "index1": 111,
+      "index2": 82,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_28": {
+      "collideConnected": false,
+      "index1": 70,
+      "index2": 42,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_29": {
+      "collideConnected": false,
+      "index1": 73,
+      "index2": 2,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_3": {
+      "collideConnected": false,
+      "index1": 96,
+      "index2": 2,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_30": {
+      "collideConnected": false,
+      "index1": 49,
+      "index2": 124,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_31": {
+      "collideConnected": false,
+      "index1": 92,
+      "index2": 31,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_32": {
+      "collideConnected": false,
+      "index1": 53,
+      "index2": 72,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_33": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 69,
+      "index2": 56,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": true,
+      "motorSpeed": 0.6000000238418579,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_34": {
+      "collideConnected": false,
+      "index1": 50,
+      "index2": 62,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_35": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 85,
+      "index2": 29,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": true,
+      "motorSpeed": -0.800000011920929,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_36": {
+      "collideConnected": false,
+      "index1": 93,
+      "index2": 53,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_37": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 79,
+      "index2": 78,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": -0.15367700159549713,
+      "x2": -0.08839499950408936,
+      "y1": -2.3503100872039795,
+      "y2": 1.2567299604415894
+    },
+    "joint_38": {
+      "collideConnected": false,
+      "index1": 104,
+      "index2": 43,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_39": {
+      "collideConnected": false,
+      "index1": 112,
+      "index2": 62,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_4": {
+      "collideConnected": false,
+      "index1": 109,
+      "index2": 39,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_40": {
+      "collideConnected": false,
+      "index1": 43,
+      "index2": 53,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_41": {
+      "collideConnected": false,
+      "index1": 119,
+      "index2": 45,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_42": {
+      "collideConnected": false,
+      "index1": 4,
+      "index2": 86,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_43": {
+      "collideConnected": false,
+      "index1": 21,
+      "index2": 15,
+      "type": 2,
+      "x1": 0.611624002456665,
+      "x2": 0,
+      "y1": 0.10245200246572495,
+      "y2": 0
+    },
+    "joint_44": {
+      "collideConnected": false,
+      "index1": 14,
+      "index2": 12,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_45": {
+      "collideConnected": false,
+      "index1": 5,
+      "index2": 39,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_46": {
+      "collideConnected": false,
+      "index1": 28,
+      "index2": 75,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_47": {
+      "collideConnected": false,
+      "index1": 71,
+      "index2": 16,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_48": {
+      "collideConnected": false,
+      "index1": 114,
+      "index2": 92,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_49": {
+      "collideConnected": false,
+      "index1": 41,
+      "index2": 63,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_5": {
+      "collideConnected": false,
+      "index1": 83,
+      "index2": 104,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_50": {
+      "collideConnected": false,
+      "index1": 3,
+      "index2": 41,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_51": {
+      "collideConnected": false,
+      "index1": 3,
+      "index2": 45,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_52": {
+      "collideConnected": false,
+      "index1": 60,
+      "index2": 15,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_53": {
+      "collideConnected": false,
+      "index1": 35,
+      "index2": 83,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_54": {
+      "collideConnected": false,
+      "index1": 73,
+      "index2": 96,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_55": {
+      "collideConnected": false,
+      "index1": 60,
+      "index2": 21,
+      "type": 2,
+      "x1": 0,
+      "x2": -1.8007500171661377,
+      "y1": 0,
+      "y2": 0.21656200289726257
+    },
+    "joint_56": {
+      "collideConnected": false,
+      "index1": 60,
+      "index2": 19,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_57": {
+      "collideConnected": false,
+      "index1": 13,
+      "index2": 14,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_58": {
+      "collideConnected": false,
+      "index1": 109,
+      "index2": 86,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_59": {
+      "collideConnected": false,
+      "index1": 117,
+      "index2": 70,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_6": {
+      "collideConnected": false,
+      "index1": 8,
+      "index2": 136,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_60": {
+      "collideConnected": false,
+      "index1": 37,
+      "index2": 16,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_61": {
+      "collideConnected": false,
+      "index1": 63,
+      "index2": 89,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_62": {
+      "collideConnected": false,
+      "index1": 88,
+      "index2": 94,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_63": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 64,
+      "index2": 65,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": 1.36312997341156,
+      "x2": 1.564560055732727,
+      "y1": 0.6922630071640015,
+      "y2": 0.9577249884605408
+    },
+    "joint_64": {
+      "collideConnected": false,
+      "index1": 101,
+      "index2": 63,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_65": {
+      "collideConnected": false,
+      "index1": 117,
+      "index2": 40,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_66": {
+      "collideConnected": false,
+      "index1": 90,
+      "index2": 5,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_67": {
+      "collideConnected": false,
+      "index1": 11,
+      "index2": 139,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_68": {
+      "collideConnected": false,
+      "index1": 54,
+      "index2": 4,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_69": {
+      "collideConnected": false,
+      "index1": 54,
+      "index2": 86,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_7": {
+      "collideConnected": false,
+      "index1": 51,
+      "index2": 42,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_70": {
+      "collideConnected": false,
+      "index1": 93,
+      "index2": 111,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_71": {
+      "collideConnected": false,
+      "index1": 114,
+      "index2": 100,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_72": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 22,
+      "index2": 30,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": true,
+      "motorSpeed": 1.2000000476837158,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_73": {
+      "collideConnected": false,
+      "index1": 111,
+      "index2": 72,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_74": {
+      "collideConnected": false,
+      "index1": 88,
+      "index2": 98,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_75": {
+      "collideConnected": false,
+      "index1": 23,
+      "index2": 75,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_76": {
+      "collideConnected": false,
+      "index1": 1,
+      "index2": 111,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_77": {
+      "collideConnected": false,
+      "index1": 95,
+      "index2": 31,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_78": {
+      "collideConnected": false,
+      "index1": 52,
+      "index2": 42,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_79": {
+      "collideConnected": false,
+      "index1": 91,
+      "index2": 57,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_8": {
+      "collideConnected": false,
+      "index1": 29,
+      "index2": 75,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_80": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 20,
+      "index2": 28,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": true,
+      "motorSpeed": -0.6000000238418579,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_81": {
+      "collideConnected": false,
+      "index1": 7,
+      "index2": 99,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_82": {
+      "collideConnected": false,
+      "index1": 35,
+      "index2": 71,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_83": {
+      "collideConnected": false,
+      "index1": 137,
+      "index2": 48,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_84": {
+      "collideConnected": false,
+      "index1": 34,
+      "index2": 95,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_85": {
+      "collideConnected": false,
+      "index1": 89,
+      "index2": 40,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_86": {
+      "collideConnected": false,
+      "index1": 72,
+      "index2": 33,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_87": {
+      "collideConnected": false,
+      "index1": 3,
+      "index2": 15,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_88": {
+      "collideConnected": false,
+      "index1": 97,
+      "index2": 12,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_89": {
+      "collideConnected": false,
+      "index1": 109,
+      "index2": 4,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_9": {
+      "collideConnected": false,
+      "index1": 117,
+      "index2": 96,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_90": {
+      "collideConnected": false,
+      "index1": 138,
+      "index2": 25,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_91": {
+      "collideConnected": false,
+      "index1": 99,
+      "index2": 54,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_92": {
+      "collideConnected": false,
+      "index1": 140,
+      "index2": 38,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_93": {
+      "collideConnected": false,
+      "index1": 13,
+      "index2": 74,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_94": {
+      "collideConnected": false,
+      "index1": 109,
+      "index2": 73,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_95": {
+      "collideConnected": false,
+      "index1": 26,
+      "index2": 136,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_96": {
+      "collideConnected": false,
+      "index1": 61,
+      "index2": 90,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_97": {
+      "collideConnected": false,
+      "index1": 27,
+      "index2": 34,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_98": {
+      "collideConnected": false,
+      "index1": 55,
+      "index2": 35,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_99": {
+      "collideConnected": false,
+      "index1": 98,
+      "index2": 27,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    }
+  }
+}

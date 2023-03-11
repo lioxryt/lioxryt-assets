@@ -1,0 +1,168 @@
+{
+	"name": "FONT_MENU_IPAD",
+	"leading": 75,
+	"spacing": -2,
+	"charCount": 20,
+	"chars": {
+		"char_0": {
+			"code": 32,
+			"x": 40,
+			"y": 201,
+			"width": 22,
+			"height": 16,
+			"baseline": 13
+		},
+		"char_1": {
+			"code": 42,
+			"x": 2,
+			"y": 108,
+			"width": 75,
+			"height": 91,
+			"baseline": 74
+		},
+		"char_2": {
+			"code": 45,
+			"x": 2,
+			"y": 201,
+			"width": 36,
+			"height": 20,
+			"baseline": 41
+		},
+		"char_3": {
+			"code": 48,
+			"x": 295,
+			"y": 81,
+			"width": 50,
+			"height": 76,
+			"baseline": 70
+		},
+		"char_4": {
+			"code": 49,
+			"x": 79,
+			"y": 108,
+			"width": 30,
+			"height": 76,
+			"baseline": 70
+		},
+		"char_5": {
+			"code": 50,
+			"x": 444,
+			"y": 81,
+			"width": 47,
+			"height": 75,
+			"baseline": 69
+		},
+		"char_6": {
+			"code": 51,
+			"x": 116,
+			"y": 95,
+			"width": 47,
+			"height": 78,
+			"baseline": 71
+		},
+		"char_7": {
+			"code": 52,
+			"x": 347,
+			"y": 159,
+			"width": 48,
+			"height": 76,
+			"baseline": 70
+		},
+		"char_8": {
+			"code": 53,
+			"x": 347,
+			"y": 81,
+			"width": 49,
+			"height": 76,
+			"baseline": 70
+		},
+		"char_9": {
+			"code": 54,
+			"x": 398,
+			"y": 81,
+			"width": 44,
+			"height": 76,
+			"baseline": 69
+		},
+		"char_10": {
+			"code": 55,
+			"x": 437,
+			"y": 2,
+			"width": 45,
+			"height": 77,
+			"baseline": 70
+		},
+		"char_11": {
+			"code": 56,
+			"x": 383,
+			"y": 2,
+			"width": 52,
+			"height": 77,
+			"baseline": 70
+		},
+		"char_12": {
+			"code": 57,
+			"x": 295,
+			"y": 159,
+			"width": 50,
+			"height": 76,
+			"baseline": 69
+		},
+		"char_13": {
+			"code": 58,
+			"x": 165,
+			"y": 95,
+			"width": 22,
+			"height": 51,
+			"baseline": 45
+		},
+		"char_14": {
+			"code": 94,
+			"x": 116,
+			"y": 2,
+			"width": 75,
+			"height": 91,
+			"baseline": 79
+		},
+		"char_15": {
+			"code": 124,
+			"x": 2,
+			"y": 2,
+			"width": 112,
+			"height": 104,
+			"baseline": 81
+		},
+		"char_16": {
+			"code": 163,
+			"x": 193,
+			"y": 94,
+			"width": 95,
+			"height": 83,
+			"baseline": 72
+		},
+		"char_17": {
+			"code": 189,
+			"x": 193,
+			"y": 2,
+			"width": 100,
+			"height": 90,
+			"baseline": 77
+		},
+		"char_18": {
+			"code": 222,
+			"x": 398,
+			"y": 159,
+			"width": 67,
+			"height": 74,
+			"baseline": 70
+		},
+		"char_19": {
+			"code": 230,
+			"x": 295,
+			"y": 2,
+			"width": 86,
+			"height": 77,
+			"baseline": 77
+		}
+	}
+}

@@ -1,0 +1,1197 @@
+{
+  "camera": [
+    {
+      "bottom": 9.656,
+      "id": "Slingshot",
+      "left": -79.514,
+      "right": 17.061,
+      "top": -62.775,
+      "x": 32.952,
+      "y": -26.56
+    },
+    {
+      "bottom": 9.538,
+      "id": "Castle",
+      "left": -19.065,
+      "right": 77.509,
+      "top": -62.893,
+      "x": 93.401,
+      "y": -26.678
+    }
+  ],
+  "counts": {
+    "birds": 4,
+    "blocks": 120,
+    "joints": 32
+  },
+  "id": "packMoonFestival1/LevelMC_537.lua",
+  "scoreEagle": 110000,
+  "scoreGold": 72000,
+  "scoreSilver": 65000,
+  "theme": "BACKGROUND_MOONFESTIVAL",
+  "world": {
+    "bird_1": {
+      "angle": 0,
+      "id": "BIRD_BLUE",
+      "x": 12.24,
+      "y": -26.699
+    },
+    "bird_2": {
+      "angle": 0,
+      "id": "BIRD_BLUE",
+      "x": 15.395,
+      "y": -19.072
+    },
+    "bird_3": {
+      "angle": 0,
+      "id": "BIRD_YELLOW",
+      "x": 18.409,
+      "y": -13.689
+    },
+    "bird_4": {
+      "angle": 0,
+      "id": "BIRD_RED",
+      "x": 22.933,
+      "y": -11.585
+    },
+    "block_1": {
+      "angle": 180,
+      "id": "ICE_BLOCK_4X1",
+      "x": 94.922,
+      "y": -33.218
+    },
+    "block_10": {
+      "angle": 270,
+      "id": "ICE_BLOCK_4X1",
+      "x": 105.591,
+      "y": -30.173
+    },
+    "block_99": {
+      "angle": 24,
+      "id": "BLOCK_ROPE_THIN_SHORT",
+      "x": 116.471,
+      "y": -45.43
+    },
+    "block_100": {
+      "angle": 44.5,
+      "id": "BLOCK_ROPE_THIN_SHORT",
+      "x": 113.708,
+      "y": -41.234
+    },
+    "block_101": {
+      "angle": 44.5,
+      "id": "BLOCK_ROPE_THIN_SHORT",
+      "x": 80.95,
+      "y": -15.132
+    },
+    "block_102": {
+      "angle": 90,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 99.779,
+      "y": -1.809
+    },
+    "block_103": {
+      "angle": 90,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 107.163,
+      "y": -1.198
+    },
+    "block_104": {
+      "angle": 90,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 108.721,
+      "y": -7.741
+    },
+    "block_105": {
+      "angle": 10.5,
+      "id": "BLOCK_ROPE_THIN_SHORT",
+      "x": 117.726,
+      "y": -50.118
+    },
+    "block_106": {
+      "angle": 0,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 0,
+      "y": 2.021
+    },
+    "block_107": {
+      "angle": 315,
+      "id": "B_CHINESE_FAN_2",
+      "x": 99.292,
+      "y": -11.473
+    },
+    "block_108": {
+      "angle": 0,
+      "id": "ICE_TRIANGLE_4X4_HOLLOW",
+      "x": 70.766,
+      "y": -10.834
+    },
+    "block_11": {
+      "angle": 0,
+      "id": "WOOD_CIRCLE_4X4",
+      "x": 107.199,
+      "y": -36.772
+    },
+    "block_109": {
+      "angle": 119.5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 90.854,
+      "y": 0.295
+    },
+    "block_110": {
+      "angle": 0,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 8.387,
+      "y": -21.504
+    },
+    "block_111": {
+      "angle": 0,
+      "id": "ICE_TRIANGLE_4X4_HOLLOW",
+      "x": 91.951,
+      "y": -29.916
+    },
+    "block_112": {
+      "angle": 119.5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 131.219,
+      "y": 2.276
+    },
+    "block_113": {
+      "angle": 0,
+      "id": "ICE_TRIANGLE_4X4_HOLLOW",
+      "x": 94.856,
+      "y": -35.727
+    },
+    "block_114": {
+      "angle": 0,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 8.388,
+      "y": -2.664
+    },
+    "block_115": {
+      "angle": 0,
+      "id": "ICE_TRIANGLE_4X4_HOLLOW",
+      "x": 97.761,
+      "y": -30.048
+    },
+    "block_116": {
+      "angle": 187,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 116.035,
+      "y": -1.591
+    },
+    "block_117": {
+      "angle": 126.5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 125.827,
+      "y": -1.367
+    },
+    "block_118": {
+      "angle": 0,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 8.387,
+      "y": -12.223
+    },
+    "block_12": {
+      "angle": 270,
+      "id": "ICE_BLOCK_4X1",
+      "x": 96.89,
+      "y": -23.283
+    },
+    "block_119": {
+      "angle": 360,
+      "id": "B_CHINESE_HAT_2",
+      "x": 86.421,
+      "y": -15.795
+    },
+    "block_120": {
+      "angle": 132,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 119.063,
+      "y": -6.859
+    },
+    "block_13": {
+      "angle": 270,
+      "id": "WOOD_CIRCLE_4X4",
+      "x": 109.339,
+      "y": -23
+    },
+    "block_14": {
+      "angle": 0,
+      "id": "WOOD_CIRCLE_4X4",
+      "x": 74.347,
+      "y": -10.576
+    },
+    "block_15": {
+      "angle": 296.5,
+      "id": "WOOD_BLOCK_4X1",
+      "x": 96.243,
+      "y": -30.51
+    },
+    "block_16": {
+      "angle": 90,
+      "id": "WOOD_BLOCK_4X2",
+      "x": 89.723,
+      "y": -18.378
+    },
+    "block_17": {
+      "angle": 241.5,
+      "id": "WOOD_BLOCK_4X1",
+      "x": 93.337,
+      "y": -30.444
+    },
+    "block_18": {
+      "angle": 270,
+      "id": "WOOD_BLOCK_4X1",
+      "x": 97.976,
+      "y": -23.147
+    },
+    "block_19": {
+      "angle": 270,
+      "id": "WOOD_BLOCK_2X2",
+      "x": 97.456,
+      "y": -26.206
+    },
+    "block_2": {
+      "angle": 0,
+      "id": "WOOD_CIRCLE_2X2",
+      "x": 115.425,
+      "y": -43.149
+    },
+    "block_20": {
+      "angle": 270,
+      "id": "WOOD_BLOCK_2X2",
+      "x": 90.194,
+      "y": -26.112
+    },
+    "block_21": {
+      "angle": 90,
+      "id": "WOOD_BLOCK_4X2",
+      "x": 77.919,
+      "y": -2.102
+    },
+    "block_22": {
+      "angle": 0,
+      "id": "WOOD_BLOCK_4X2",
+      "x": 104.135,
+      "y": -33.122
+    },
+    "block_23": {
+      "angle": 90,
+      "id": "WOOD_BLOCK_4X1",
+      "x": 104.624,
+      "y": -23.188
+    },
+    "block_24": {
+      "angle": 180,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 101.84,
+      "y": -27.605
+    },
+    "block_25": {
+      "angle": 0,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 119.619,
+      "y": -17.907
+    },
+    "block_26": {
+      "angle": 360,
+      "id": "MISC_EXPLOSIVE_TNT",
+      "x": 127.07,
+      "y": -13.38
+    },
+    "block_27": {
+      "angle": 360,
+      "id": "MISC_EXPLOSIVE_TNT",
+      "x": 27.379,
+      "y": -1.715
+    },
+    "block_28": {
+      "angle": 180,
+      "id": "STONE_BLOCK_4X1",
+      "x": 109.389,
+      "y": -25.175
+    },
+    "block_29": {
+      "angle": 0,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 124.819,
+      "y": -11.211
+    },
+    "block_3": {
+      "angle": 0,
+      "id": "WOOD_CIRCLE_2X2",
+      "x": 111.991,
+      "y": -39.583
+    },
+    "block_30": {
+      "angle": 360,
+      "id": "WOOD_BLOCK_8X1",
+      "x": 116.507,
+      "y": -34.317
+    },
+    "block_31": {
+      "angle": 0,
+      "id": "WOOD_BLOCK_2X2",
+      "x": 83.97,
+      "y": -1.119
+    },
+    "block_32": {
+      "angle": 360,
+      "id": "MISC_EXPLOSIVE_TNT",
+      "x": 122.071,
+      "y": -20.076
+    },
+    "block_33": {
+      "angle": 360,
+      "id": "B_CHINESE_TEACUP",
+      "x": 93.422,
+      "y": -13.893
+    },
+    "block_34": {
+      "angle": 0,
+      "id": "ICE_BLOCK_8X1",
+      "x": 93.495,
+      "y": -27.621
+    },
+    "block_35": {
+      "angle": 90,
+      "id": "WOOD_BLOCK_4X2",
+      "x": 89.723,
+      "y": -14.417
+    },
+    "block_36": {
+      "angle": 360,
+      "id": "B_CHINESE_LANTERN_2",
+      "x": 121.788,
+      "y": -14.417
+    },
+    "block_37": {
+      "angle": 0,
+      "id": "STONE_BLOCK_4X2",
+      "x": 80.952,
+      "y": -1.119
+    },
+    "block_38": {
+      "angle": 270,
+      "id": "STONE_BLOCK_4X2",
+      "x": 113.876,
+      "y": -23.038
+    },
+    "block_39": {
+      "angle": 0,
+      "id": "TERRAIN_TEXTURED_HILLS_5X5",
+      "x": 22.536,
+      "y": -8.648
+    },
+    "block_4": {
+      "angle": 0,
+      "id": "WOOD_CIRCLE_2X2",
+      "x": 118.178,
+      "y": -52.543
+    },
+    "block_40": {
+      "angle": 270,
+      "id": "TERRAIN_TEXTURED_HILLS_5X5",
+      "x": 112.452,
+      "y": -18.567
+    },
+    "block_41": {
+      "angle": 0,
+      "id": "TERRAIN_TEXTURED_HILLS_5X5",
+      "x": 14.777,
+      "y": -16.179
+    },
+    "block_42": {
+      "angle": 0,
+      "id": "TERRAIN_TEXTURED_HILLS_5X5",
+      "x": 17.135,
+      "y": -10.778
+    },
+    "block_43": {
+      "angle": 0,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 92.511,
+      "y": -7.521
+    },
+    "block_44": {
+      "angle": 90,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 108.789,
+      "y": -16.22
+    },
+    "block_45": {
+      "angle": 148.5,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 113.212,
+      "y": -13.254
+    },
+    "block_46": {
+      "angle": 270,
+      "id": "WOOD_BLOCK_1X1",
+      "x": 107.597,
+      "y": -26.189
+    },
+    "block_47": {
+      "angle": 270,
+      "id": "WOOD_BLOCK_1X1",
+      "x": 107.264,
+      "y": -21.585
+    },
+    "block_48": {
+      "angle": 0,
+      "id": "WOOD_BLOCK_2X1",
+      "x": 93.701,
+      "y": -12.906
+    },
+    "block_49": {
+      "angle": 0,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 111.604,
+      "y": -7.579
+    },
+    "block_5": {
+      "angle": 0,
+      "id": "WOOD_CIRCLE_2X2",
+      "x": 79.233,
+      "y": -13.481
+    },
+    "block_50": {
+      "angle": 270,
+      "id": "WOOD_BLOCK_1X1",
+      "x": 111.508,
+      "y": -21.679
+    },
+    "block_51": {
+      "angle": 45,
+      "id": "WOOD_BLOCK_2X1",
+      "x": 84.065,
+      "y": -13.132
+    },
+    "block_52": {
+      "angle": 22.5,
+      "id": "WOOD_BLOCK_2X1",
+      "x": 85.586,
+      "y": -12.143
+    },
+    "block_53": {
+      "angle": 360,
+      "id": "WOOD_BLOCK_2X1",
+      "x": 87.032,
+      "y": -11.839
+    },
+    "block_54": {
+      "angle": 0,
+      "id": "WOOD_BLOCK_1X1",
+      "x": 95.299,
+      "y": -12.906
+    },
+    "block_55": {
+      "angle": 0,
+      "id": "WOOD_BLOCK_2X1",
+      "x": 91.703,
+      "y": -12.908
+    },
+    "block_56": {
+      "angle": 0,
+      "id": "STONE_BLOCK_4X4_HOLLOW",
+      "x": 113.837,
+      "y": -27.045
+    },
+    "block_57": {
+      "angle": 360,
+      "id": "PIG_BASIC_MEDIUM",
+      "x": 86.573,
+      "y": -14.045
+    },
+    "block_58": {
+      "angle": 270,
+      "id": "WOOD_BLOCK_1X1",
+      "x": 110.898,
+      "y": -26.189
+    },
+    "block_59": {
+      "angle": 360,
+      "id": "B_CHINESE_HAT_1",
+      "x": 109.199,
+      "y": -27.709
+    },
+    "block_6": {
+      "angle": 0,
+      "id": "WOOD_CIRCLE_2X2",
+      "x": 82.667,
+      "y": -17.047
+    },
+    "block_60": {
+      "angle": 360,
+      "id": "PIG_BASIC_MEDIUM",
+      "x": 101.376,
+      "y": -10.788
+    },
+    "block_61": {
+      "angle": 0,
+      "id": "STONE_BLOCK_4X4_HOLLOW",
+      "x": 70.715,
+      "y": -6.076
+    },
+    "block_62": {
+      "angle": 360,
+      "id": "B_BUNNY_STATUE",
+      "x": 81.552,
+      "y": -3.703
+    },
+    "block_63": {
+      "angle": 90,
+      "id": "WOOD_BLOCK_4X1",
+      "x": 105.661,
+      "y": -23.188
+    },
+    "block_64": {
+      "angle": 135,
+      "id": "WOOD_BLOCK_4X1",
+      "x": 117.639,
+      "y": -16.587
+    },
+    "block_65": {
+      "angle": 135,
+      "id": "WOOD_BLOCK_4X1",
+      "x": 122.839,
+      "y": -9.985
+    },
+    "block_66": {
+      "angle": 360,
+      "id": "PIG_HELMET",
+      "x": 94.38,
+      "y": -23.098
+    },
+    "block_67": {
+      "angle": 360,
+      "id": "B_CHINESE_TEAPOT",
+      "x": 95.172,
+      "y": -14.501
+    },
+    "block_68": {
+      "angle": 90,
+      "id": "ICE_BLOCK_4X2",
+      "x": 90.227,
+      "y": -23.174
+    },
+    "block_7": {
+      "angle": 0,
+      "id": "WOOD_CIRCLE_2X2",
+      "x": 117.33,
+      "y": -47.675
+    },
+    "block_69": {
+      "angle": 360,
+      "id": "B_CHINESE_LANTERN_3",
+      "x": 75.134,
+      "y": -5.182
+    },
+    "block_70": {
+      "angle": 90,
+      "id": "STONE_BLOCK_2X2",
+      "x": 77.63,
+      "y": -9.774
+    },
+    "block_71": {
+      "angle": 90,
+      "id": "STONE_BLOCK_4X2",
+      "x": 77.913,
+      "y": -6.076
+    },
+    "block_72": {
+      "angle": 360,
+      "id": "STONE_TRIANGLE_4X4_HOLLOW",
+      "x": 113.711,
+      "y": -31.875
+    },
+    "block_73": {
+      "angle": 180,
+      "id": "STONE_TRIANGLE_4X4_HOLLOW",
+      "x": 115.824,
+      "y": -31.941
+    },
+    "block_74": {
+      "angle": 180,
+      "id": "STONE_TRIANGLE_4X4_HOLLOW",
+      "x": 111.532,
+      "y": -31.941
+    },
+    "block_75": {
+      "angle": 180,
+      "id": "STONE_TRIANGLE_4X4_HOLLOW",
+      "x": 70.722,
+      "y": -2.102
+    },
+    "block_76": {
+      "angle": 90,
+      "id": "STONE_BLOCK_1X1",
+      "x": 111.508,
+      "y": -35.26
+    },
+    "block_77": {
+      "angle": 270,
+      "id": "STONE_BLOCK_1X1",
+      "x": 102.896,
+      "y": -9.016
+    },
+    "block_78": {
+      "angle": 270,
+      "id": "STONE_BLOCK_1X1",
+      "x": 99.707,
+      "y": -9.016
+    },
+    "block_8": {
+      "angle": 360,
+      "id": "PIG_BASIC_SMALL",
+      "x": 109.275,
+      "y": -26.72
+    },
+    "block_79": {
+      "angle": 360,
+      "id": "B_CHINESE_LANTERN_1",
+      "x": 124.24,
+      "y": -13.097
+    },
+    "block_80": {
+      "angle": 0,
+      "id": "BREAKABLE_STATIC_BLOCK_INVISIBLE",
+      "x": 118.254,
+      "y": -52.759
+    },
+    "block_81": {
+      "angle": 0,
+      "id": "STONE_TRIANGLE_4X4_HOLLOW",
+      "x": 72.901,
+      "y": -2.036
+    },
+    "block_82": {
+      "angle": 270,
+      "id": "BREAKABLE_STATIC_BLOCK_INVISIBLE",
+      "x": 82.744,
+      "y": -17.152
+    },
+    "block_83": {
+      "angle": 0,
+      "id": "STONE_TRIANGLE_4X4_HOLLOW",
+      "x": 68.609,
+      "y": -2.036
+    },
+    "block_84": {
+      "angle": 90,
+      "id": "STONE_BLOCK_1X1",
+      "x": 102.832,
+      "y": -35.354
+    },
+    "block_85": {
+      "angle": 0,
+      "id": "STONE_BLOCK_10X1",
+      "x": 73.687,
+      "y": -8.387
+    },
+    "block_86": {
+      "angle": 0,
+      "id": "STONE_BLOCK_10X1",
+      "x": 93.586,
+      "y": -20.703
+    },
+    "block_87": {
+      "angle": 180,
+      "id": "STONE_BLOCK_4X2",
+      "x": 101.356,
+      "y": -7.533
+    },
+    "block_88": {
+      "angle": 90,
+      "id": "STONE_BLOCK_4X2",
+      "x": 97.831,
+      "y": -18.326
+    },
+    "block_9": {
+      "angle": 270,
+      "id": "ICE_BLOCK_4X1",
+      "x": 102.63,
+      "y": -30.173
+    },
+    "block_89": {
+      "angle": 180,
+      "id": "STONE_BLOCK_2X2",
+      "x": 105.142,
+      "y": -26.052
+    },
+    "block_90": {
+      "angle": 90,
+      "id": "STONE_BLOCK_2X2",
+      "x": 109.934,
+      "y": -35.839
+    },
+    "block_91": {
+      "angle": 90,
+      "id": "STONE_BLOCK_2X2",
+      "x": 104.387,
+      "y": -35.839
+    },
+    "block_92": {
+      "angle": 59.5,
+      "id": "BLOCK_ROPE_THIN_SHORT",
+      "x": 77.385,
+      "y": -12.293
+    },
+    "block_93": {
+      "angle": 180,
+      "id": "WOOD_TRIANGLE_4X4_HOLLOW",
+      "x": 94.79,
+      "y": -30.775
+    },
+    "block_94": {
+      "angle": 0,
+      "id": "STONE_BLOCK_8X1",
+      "x": 113.876,
+      "y": -29.407
+    },
+    "block_95": {
+      "angle": 0,
+      "id": "TERRAIN_TEXTURED_HILLS_10X10",
+      "x": 3.642,
+      "y": -2.395
+    },
+    "block_96": {
+      "angle": 90,
+      "id": "WOOD_BLOCK_10X1",
+      "x": 97.893,
+      "y": -11.53
+    },
+    "block_97": {
+      "angle": 0,
+      "id": "WOOD_BLOCK_10X1",
+      "x": 107.248,
+      "y": -34.417
+    },
+    "block_98": {
+      "angle": 59.5,
+      "id": "BLOCK_ROPE_THIN_SHORT",
+      "x": 110.142,
+      "y": -38.394
+    },
+    "joint_1": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 1,
+      "index2": 98,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": 0.264147013425827,
+      "x2": 0.08142050355672836,
+      "y1": -0.5943120121955872,
+      "y2": 1.481660008430481
+    },
+    "joint_10": {
+      "collideConnected": false,
+      "index1": 24,
+      "index2": 44,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_11": {
+      "collideConnected": false,
+      "index1": 81,
+      "index2": 5,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_12": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 98,
+      "index2": 6,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": -0.08798389881849289,
+      "x2": -0.3301750123500824,
+      "y1": -1.3341200351715088,
+      "y2": 0.8584349751472473
+    },
+    "joint_13": {
+      "collideConnected": false,
+      "index1": 118,
+      "index2": 56,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_14": {
+      "collideConnected": false,
+      "destroyTimer": 0,
+      "index1": 26,
+      "index2": 94,
+      "type": 5,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_15": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 10,
+      "index2": 97,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": 1.1885900497436523,
+      "x2": 0.03584149852395058,
+      "y1": -0.594290018081665,
+      "y2": 1.6304899454116821
+    },
+    "joint_16": {
+      "collideConnected": false,
+      "index1": 7,
+      "index2": 58,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_17": {
+      "collideConnected": false,
+      "index1": 72,
+      "index2": 71,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_18": {
+      "collideConnected": false,
+      "index1": 3,
+      "index2": 79,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_19": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 91,
+      "index2": 4,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": 0.07092320173978806,
+      "x2": -0.5942919850349426,
+      "y1": -1.0311299562454224,
+      "y2": 0.46222901344299316
+    },
+    "joint_2": {
+      "collideConnected": false,
+      "index1": 52,
+      "index2": 42,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_20": {
+      "collideConnected": false,
+      "index1": 63,
+      "index2": 44,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_21": {
+      "collideConnected": false,
+      "index1": 106,
+      "index2": 59,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_22": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 13,
+      "index2": 91,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": 1.1885900497436523,
+      "x2": 0.03584149852395058,
+      "y1": -0.594290018081665,
+      "y2": 1.6304899454116821
+    },
+    "joint_23": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 97,
+      "index2": 2,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": 0.07092320173978806,
+      "x2": -0.5942919850349426,
+      "y1": -1.0311299562454224,
+      "y2": 0.46222901344299316
+    },
+    "joint_24": {
+      "collideConnected": false,
+      "index1": 61,
+      "index2": 94,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_25": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 99,
+      "index2": 1,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": 0.05768920108675957,
+      "x2": -0.5282570123672485,
+      "y1": -1.2602299451828003,
+      "y2": 0.7923880219459534
+    },
+    "joint_26": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 2,
+      "index2": 99,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": 0.4622269868850708,
+      "x2": 0.0340551994740963,
+      "y1": -0.46222901344299316,
+      "y2": 1.4478100538253784
+    },
+    "joint_27": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 35,
+      "index2": 24,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": 4.167310180491768E-6,
+      "x2": 2.0748400688171387,
+      "y1": -1.8862199783325195,
+      "y2": 0.09430669993162155
+    },
+    "joint_28": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 68,
+      "index2": 84,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": 0.07603579759597778,
+      "x2": 1.447450041770935,
+      "y1": -1.369339942932129,
+      "y2": 0.08591890335083008
+    },
+    "joint_29": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 100,
+      "index2": 5,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": 0.05768920108675957,
+      "x2": -0.5282570123672485,
+      "y1": -1.2602299451828003,
+      "y2": 0.7923880219459534
+    },
+    "joint_3": {
+      "collideConnected": false,
+      "index1": 64,
+      "index2": 119,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_30": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 3,
+      "index2": 104,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": -0.26412999629974365,
+      "x2": -0.050650399178266525,
+      "y1": 0.9065150022506714,
+      "y2": -0.9979689717292786
+    },
+    "joint_31": {
+      "collideConnected": false,
+      "index1": 63,
+      "index2": 24,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_32": {
+      "collideConnected": false,
+      "index1": 64,
+      "index2": 28,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_4": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 6,
+      "index2": 104,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": 0.13206900656223297,
+      "x2": 0.06995590031147003,
+      "y1": -0.5282629728317261,
+      "y2": 1.4644900560379028
+    },
+    "joint_5": {
+      "collideConnected": false,
+      "index1": 51,
+      "index2": 52,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_6": {
+      "backAndForth": false,
+      "collideConnected": false,
+      "index1": 4,
+      "index2": 100,
+      "limit": false,
+      "lowerLimit": 0,
+      "maxTorque": 10000,
+      "motor": false,
+      "motorSpeed": 0,
+      "type": 3,
+      "upperLimit": 3.141590118408203,
+      "x1": 0.4622269868850708,
+      "x2": 0.0340551994740963,
+      "y1": -0.46222901344299316,
+      "y2": 1.4478100538253784
+    },
+    "joint_7": {
+      "collideConnected": false,
+      "index1": 51,
+      "index2": 50,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_8": {
+      "collideConnected": false,
+      "index1": 28,
+      "index2": 119,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    },
+    "joint_9": {
+      "collideConnected": false,
+      "index1": 73,
+      "index2": 71,
+      "type": 2,
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 0
+    }
+  }
+}
