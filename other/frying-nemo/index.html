@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head> 
+ <link rel="icon" type="image/x-icon" href="/img/newlogo.png" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XXGG6SJL6H"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-XXGG6SJL6H");
+    </script>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Frying Nemo | lioxryt</title>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate(
+        "gameContainer",
+        "Build/Web7.json"
+      );
+      var scaleToFit;
+      try {
+        scaleToFit = !!JSON.parse("false");
+      } catch (e) {
+        scaleToFit = true;
+      }
+      window.onresize = function () {
+        var canvas = gameInstance.Module.canvas;
+        var container = gameInstance.container;
+        var w;
+        var h;
+
+        if (scaleToFit) {
+          w = window.innerWidth;
+          h = window.innerHeight;
+
+          var r = 600 / 960;
+
+          if (w * r > window.innerHeight) {
+            w = Math.min(w, Math.ceil(h / r));
+          }
+          h = Math.floor(w * r);
+        } else {
+          w = 960;
+          h = 600;
+        }
+
+        container.style.width = canvas.style.width = w + "px";
+        container.style.height = canvas.style.height = h + "px";
+        container.style.top = Math.floor((window.innerHeight - h) / 2) + "px";
+        container.style.left = Math.floor((window.innerWidth - w) / 2) + "px";
+      };
+    </script>
+    <style>
+      html,
+      body {
+        background: #000;
+        background: #000;
+        width: 100%;
+        height: 100%;
+        overflow: visible;
+        padding: 0;
+        margin: 0;
+      }
+      div#gameContainer {
+        background: transparent !important;
+        position: absolute;
+      }
+      div#gameContainer canvas {
+        position: absolute;
+        image-rendering: optimizeSpeed;
+        image-rendering: -webkit-crisp-edges;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: -o-crisp-edges;
+        image-rendering: crisp-edges;
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: optimize-contrast;
+        image-rendering: pixelated;
+        -ms-interpolation-mode: nearest-neighbor;
+      }
+    </style>
+  </head>
+  <body onload="window.onresize();">
+    <div id="gameContainer" style="width: 960px; height: 600px"></div>
+  <script src="/html/settings/js/index.js"></script> 
+   </body>
+</html>
+<script
+  defer
+  src="https://static.itch.io/htmlgame.js"
+  type="text/javascript"
+></script>

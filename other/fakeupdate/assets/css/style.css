@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    font-size:100%;
+    font-family:Arial
+}
+
+.colorb{
+    float:right;
+    width:10%;
+    height:12px;
+    background:blue;
+    display:block
+}
+
+.div2{
+    width:100%;
+    height:100vh;
+    float:left
+}
+.div2 img{
+    width:25%;
+    border:3px solid #e1e1e1
+}
+.div2 .half img{
+    width:calc((25%/2) - 5px);
+}
+.div2 img:hover{
+    border:3px solid #df2e17
+}
+#itemz{
+    position:fixed;
+    width:728px;
+    bottom:30px;
+    right:30px;
+    overflow:hidden;
+    color:#888;
+    background-color:#ccc;
+    height:90px;
+    z-index:17
+}
