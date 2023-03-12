@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XXGG6SJL6H"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-XXGG6SJL6H");
+    </script>
+    <link rel="icon" type="image/x-icon" href="img/pick-nobg.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/pick.png" />
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no"
+    />
+
+    <title>Grindcraft</title>
+    <script type="text/javascript" src="/js/main.js"></script>
+    <script
+      type="text/javascript"
+      src="//imasdk.googleapis.com/js/sdkloader/ima3.js"
+    ></script>
+  </head>
+  <style>
+    body {
+      overflow-y: hidden;
+      overflow-x: hidden;
+      margin: 0px;
+      padding: 0px;
+    }
+  </style>
+  <body>
+    <div id="turn"></div>
+    <div id="gameContainer"></div>
+    <script type="text/javascript">
+      var gameName = "grindcraft.min.js";
+
+      //This all here is for cache busting;
+      function addScript(src, buster, callback) {
+        var s = document.createElement("script");
+        s.setAttribute("src", src + "?v=" + buster);
+        if (typeof callback === "function") {
+          s.onload = callback;
+        }
+        document.body.appendChild(s);
+      }
+
+      // Google Analytics stuff
+      addScript("version.js", Date.now(), function () {
+        addScript(gameName, version, function () {});
+      });
+    </script>
+    <script src="/html/settings/js/index.js"></script>
+  </body>
+</html>
