@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WaFlash | lioxryt</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <script>
+      var baseUrl = window.location.href.split("waflash")[0];
+      var swfUrl = baseUrl + "waflash/swf/" + (getParameterByName("swf") || "");
+      var gameConfig = {
+        swfUrl,
+      };
+
+      console.log(gameConfig);
+
+      // Helper function to retrieve query string parameters
+      function getParameterByName(name) {
+        var url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
+        var results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return "";
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+      }
+    </script>
+  </head>
+  <body>
+    <div id="waflashContainer">
+      <canvas class="waflashCanvas" id="canvas" tabindex="1"></canvas>
+      <div id="waflashStatus" style="display: none">Playing...</div>
+      <script>
+        var ua = navigator.userAgent.toLowerCase();
+        if (
+          (navigator.appName == "Netscape" && ua.indexOf("trident") != -1) ||
+          ua.indexOf("msie") != -1
+        ) {
+          var waf = document.getElementById("waflashStatus");
+          waf.style.display = "block";
+          waf.innerText =
+            "??? ?????(IE) ??? ??? ???? ???? !\n??, ???? ?? ????? ??????.";
+          gtag("event", "connect_from_ie", {
+            event_category: "error",
+            event_label: ua,
+          });
+        }
+      </script>
+      <script type="module" crossorigin="anonymous">
+        let is_mobile = /Mobi/i.test(window.navigator.userAgent);
+        if (is_mobile) {
+          function scrollToSubject() {
+            try {
+              window.scrollTo({ top: 100, left: 0, behavior: "smooth" });
+            } catch (e) {}
+          }
+          scrollToSubject();
+          window.addEventListener("orientationchange", function () {
+            setTimeout(scrollToSubject, 100);
+          });
+        } else {
+          document.getElementById("canvas").focus();
+        }
+        document
+          .getElementById("canvas")
+          .addEventListener("keydown", function (ev) {
+            ev.preventDefault();
+            ev.stopPropagation();
+          });
+        document
+          .getElementById("canvas")
+          .addEventListener("click", function () {
+            document.getElementById("canvas").focus();
+          });
+        document.addEventListener(
+          "mousedown",
+          (function () {
+            const canvasElement = document.getElementById("canvas");
+            let focused = false;
+            return function (ev) {
+              if (ev.target == canvasElement) {
+                if (!focused) {
+                  canvasElement.focus();
+                  focused = true;
+                }
+              } else {
+                if (focused) {
+                  focused = false;
+                }
+              }
+              return true;
+            };
+          })()
+        );
+        import { createWaflash } from "./js/waflash-player.min.js";
+        createWaflash(gameConfig.swfUrl, window.wafOptions || {});
+      </script>
+    </div>
+  </body>
+</html>
