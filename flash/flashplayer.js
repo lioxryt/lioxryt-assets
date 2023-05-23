@@ -132,7 +132,7 @@ window.addEventListener("load", function() {
         console.log("loading ruffle...");
         var rScript = document.createElement("script");
         rScript.type = "text/javascript";
-        rScript.src = "https://unpkg.com/@ruffle-rs/ruffle";
+        rScript.src = "ruffle/ruffle.js";
         rScript.onload = function() {
             window.RufflePlayer = window.RufflePlayer || {};
             window.RufflePlayer.config = window.RufflePlayer.config || {};
