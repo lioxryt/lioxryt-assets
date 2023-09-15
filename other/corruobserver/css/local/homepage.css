@@ -1,0 +1,852 @@
+body #meta-hub {
+    display: none;
+}
+
+.slowdialogue #content, .slowdialogue #dialogue-box {
+    transition: 1s ease-in-out
+}
+
+body:not(.flash) #static { opacity: 0; }
+body:not(.normalload) #static { opacity: 0; }
+body.normalload[state="corru-loaded"] #static { opacity: 1;}
+
+body:not(.normalload) #static::after { content: unset; }
+body.normalload[state="corru-loaded"] #static::after { content: "" !important;} 
+
+body:not(.normalload):not(.flash) #static .enter {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#cyst, .cyst-container {
+    transition: all 10s cubic-bezier(.89,.24,.3,.9);
+}
+
+#cyst-column {
+    background-image: url(../../img/home/column.gif);
+    position: absolute;
+    top: 60%;
+    height: 150%;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: opacity 2s ease-in-out;
+}
+    
+#cyst {
+    position: relative;
+    display: flex;
+    width: 15vh;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    -webkit-clip-path: circle(7.5vh at center);
+    clip-path: circle(7.5vh at center);
+    transform-origin: center;
+    background-color: var(--obesk-color);
+    z-index: 2;
+
+    /*saves the edges on chrome*/
+    mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+    -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}
+
+#cyst img {
+    position: absolute;
+    height: 100%;
+    opacity: 0;
+}
+
+.cyst-container .crosshair {
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    top: 30%;
+    left: 77%;
+    transition: opacity 1s ease-in-out;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.cyst-container .crosshair::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../img/mui/crosshair.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: CROSSHAIRROTATE 1s linear infinite;
+    animation-play-state: paused;
+    transition: opacity 1s ease-in-out;
+}
+
+.cyst-container .crosshair.show {
+    z-index: 57;
+}
+
+.cyst-container .crosshair.show, .cyst-container .crosshair.show::after {
+    opacity: 1;
+    pointer-events: initial;
+    animation-play-state: running;
+}
+
+.crosshair .target::after {
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+@keyframes CROSSHAIRROTATE {
+    0% {transform: rotate(0deg) }
+    100% {transform: rotate(360deg) }
+}
+
+#cyst:before, #cyst-gradient {
+    content: "";
+    position: absolute;
+}
+
+#cyst-gradient {
+    background: url(../../img/textures/speckling.gif);
+    width: 275px;
+    height: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 2;
+}
+
+#cyst:before {
+    width: 150%;
+    height: 150%;
+    z-index: -1;
+    background-image: url(../../img/textures/blocker.gif);
+    background-size: cover;
+    transform-origin: center;
+    animation: SPIN 30s ease-in-out infinite reverse;
+    transition: opacity 10s linear;
+    opacity: 1;
+}    
+    
+@keyframes ROOM-FLOAT {
+    0% { transform: translateY(1vh) rotate(-0.5deg)}
+    100% { transform: translateY(0vh) rotate(0.5deg) }
+}
+
+/* ROOM SETUP */
+#room, #room-animator, #room-space {
+    perspective: 600px;
+    transform-style: preserve-3d;
+}
+
+#room, #room-animator {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 10s cubic-bezier(.89,.24,.3,.9);
+}
+
+.quickload #room, .quickload #room-animator {
+    transition-duration: 4s;
+}
+
+#room {
+    animation: ROOM-FLOAT 10s ease-in-out infinite alternate
+}
+
+.roomgfx {
+    transition: opacity 1s ease-in-out;
+}
+
+#room .wall {
+    width: 100vh;
+    height: 100vh;
+    background: url(../../img/home/prconcretespotlight.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+}
+
+.ceiling {
+    transform-origin: top center;
+    transform: rotateX(-90deg);
+}
+
+.floor {
+    transform-origin: bottom center;
+    transform: rotateX(90deg);
+}
+
+#room .backwall {
+    transform: translateZ(-100vh);
+    background-image: url(../../img/home/mothstationoff.gif);
+}
+
+#room .backwall.active {
+    background-image: url(../../img/textures/spotgradient.gif), url(../../img/home/mothstation.gif)
+}
+
+#room .leftwall, #room .rightwall {
+    background: url(../../img/home/prconcretespotlightwalls.gif);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 66%;
+}
+
+.leftwall {
+    transform: rotateY(90deg);
+    transform-origin: left;
+}
+
+.rightwall {
+    transform: rotateY(-90deg);
+    transform-origin: right center;
+}
+
+#room-animator {
+    perspective: unset;
+}
+
+.lamp, .roomgfx.table, .realmoth {
+    position: absolute;
+    width: 33vh;
+    height: 100vh;
+    transform: translateZ(-50vh) translateY(-20vh);
+    background: url(../../img/home/lamp.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.roomgfx.table, #closeup .table {
+    width: 100vh;
+    background-image: url(../../img/home/tablespotlight.gif);
+    background-position: bottom;
+    transform: translateZ(-40vh) translateY(35vh);
+    height: 40vh;
+}
+
+.realmoth {
+    height: 40vh;
+    transform: translateZ(-90vh) translateX(-50vh);
+    background-image: url(../../img/sprites/moth/mothman.gif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.realmoth:after {
+    content: "";
+    background: linear-gradient(0deg, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    position: absolute;
+    width: 22vh;
+    height: 100%;
+}
+
+.door {
+    position: absolute;
+    width: 25vh;
+    height: 70vh;
+    top: 0;
+    background: url(../../img/home/doorlit.gif);
+    background-size: 100% 100%;
+    transform-origin: right;
+    transition: 1s ease-in-out, 2s opacity ease-in-out;
+    transition-delay: 1s, 2s;
+}
+
+body[state="corru-entered"] .door {
+    transform: rotateY(-90deg);
+    opacity: 0;
+}
+
+body[state="corru-loaded"] .roomgfx, body.loading .roomgfx {
+    opacity: 0;
+}
+
+body[state="corru-entered"] #room-animator {
+    transform: translateZ(60vh);
+}
+
+#room #cyst {
+    height: 10vh;
+    width: 10vh;
+    -webkit-clip-path: circle(5vh at center);
+    clip-path: circle(5vh at center);
+}
+
+#room .cyst-container {
+    position: relative;
+    transform: translateY(-10vh);
+}
+
+.tablestuff {
+    transform: translateX(1vh) translateY(12vh) translateZ(-40vh);
+    display: flex;
+    width: 35vh;
+    justify-content: space-evenly;
+}
+
+.ocontainer, .geye {
+    width: 10vh;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+}
+
+.ocontainer figure, .geye figure {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../../img/local/orbit/dullvessel/glazikaeyedamaged.gif);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+#room .geye figure {
+    background-image: url(https://corru.observer/img/local/orbit/dullvessel);
+    background-image: url(../../img/local/orbit/dullvessel/glazikaeye.gif);
+}
+
+.ocontainer figure {
+    background-image: url(../../img/local/orbit/dullvessel/container.gif);
+    background-size: contain;
+    width: 150%;
+}
+
+/* cursor - mindspike */
+.cursor {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    transition: opacity 5s ease-in-out;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.spikefade .cursor {
+    transition: opacity 200ms ease-in-out !important;
+}
+
+.cursor-container {
+    position: absolute;
+    transform: rotate(135deg) translateY(-100vh);
+    transition: transform 5s cubic-bezier(.13,.29,0,1.01);
+}   
+
+body:not(.spike0) #cursor-upper-right.cursor .cursor-container  {
+    transform: rotate(90deg)
+}
+
+#cursor-upper-left.cursor .cursor-container  {
+    transform: rotate(-90deg);
+}
+
+#cursor-lower-right.cursor .cursor-container  {
+    transform: rotate(135deg)
+}
+
+#cursor-lower-left.cursor .cursor-container {
+    transform: rotate(-135deg);
+}
+
+.cursor-container:after {
+    content: "";
+    position: absolute;
+    bottom: 40vh;
+    height: 200vh;
+    width: 5vh;
+    background: black;
+    left: -2.5vh;
+    z-index: -1;
+}
+
+.cursor-anim {
+    animation: SPIKE 10s linear infinite;
+    transform-style: preserve-3d;
+}
+
+.cursor img {
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 40vmin;
+    transition: transform 400ms ease-out;
+}
+
+.cursor img:last-child {
+    transform: translateX(-50%) rotateY(90deg);
+}
+
+@keyframes SPIKE {
+    0% { transform: rotateY(0deg) translateX(-50%); }
+    100% { transform: rotateY(360deg) translateX(-50%); }
+}
+
+/* closeup */
+.sitting #room-space {
+    display: none;
+}
+
+#closeup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    background: black;
+}
+
+#closeup::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../img/textures/badstatic.gif);
+    z-index: -1;
+    display: none;
+}
+
+#closeup > *, .tablestuff > *:not(.cyst-container) {
+    transition: opacity 2s ease-in-out;
+}
+
+.sitting #closeup {
+    display: flex;
+}
+
+#closeup .table {
+    transform: unset;
+    width: 125vw;
+    background-size: 150vw auto;
+    background-position: -14vw 0px;
+    position: absolute;
+    bottom: -20vh;
+    height: 40vh;
+}
+
+#closeup .tablestuff {
+    transform: unset;
+    width: 120vh;
+    height: 77vh;
+    align-items: flex-end;
+}
+
+#closeup .geye figure {
+    background-size: auto 25vh;
+}
+
+#closeup .ocontainer, #closeup .geye {
+    width: 40vh;
+    height: 40vh;
+}
+
+#closeup .cyst-container {
+    transition: unset;
+    position: relative;
+    bottom: 40vh;
+}
+
+#closeup .cyst-container .target {
+    z-index: 56;
+}
+
+#closeup #cyst {
+    width: 20vw;
+    height: 20vw;
+    -webkit-clip-path: circle(10vw at center);
+    clip-path: circle(10vw at center);
+    z-index: 55;
+}
+
+#closeup .backwall {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(../../img/home/mothstationoff.gif);
+    background-repeat: no-repeat;
+    transform-origin: top;
+}
+
+#closeup .backwall.active {
+    background-image: url(../../img/home/mothstation.gif);
+}
+
+#closeup .backwall::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../../img/textures/spotgradient.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* intro and sit animations */
+.room-zoom #room-animator {
+    transition: transform 3s ease-in;
+}
+
+.pre-sit #room-animator {
+    transform: translateY(-2vh) translateZ(75vh) !important;
+}
+
+.pre-sit #static::after {
+    content: "" !important;
+    background-image: url(../../img/textures/badstatic.gif);
+}
+
+.sit-transition #static {
+    opacity: 1 !important;
+    pointer-events: initial;
+    cursor: not-allowed;
+}
+
+/* connection animations */
+#connection-overlay {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 55;
+    opacity: 1;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+}
+
+#connection-overlay:before, #connection-overlay:after {
+    content: "";
+    position: absolute;
+}
+
+#connection-overlay:before {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(../../img/textures/blocker.gif);
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+}
+
+#connection-overlay:after {
+    width: 250%;
+    height: 250%;
+    background: url(../../img/textures/overlay.gif);
+    animation: DITHER 60s ease-in-out infinite;
+    animation-direction: alternate-reverse;
+    mix-blend-mode: overlay;
+    opacity: 1;
+    transform-origin: center;
+}
+
+#connection-overlay.fade {
+    opacity: 0;
+}
+
+#connection-overlay.show {
+    display: flex;
+}
+    
+@keyframes DITHER {
+    0% {
+        opacity: 0.4;
+        transform: translate(-25%, -25%) rotate(0deg);
+    }
+    
+    25% {
+        opacity: 0.1;
+        transform: translate(-25%, -25%) rotate(30deg);
+    }
+    
+    50% {
+        opacity: 0.4;
+        transform: translate(-25%, -25%) rotate(0deg);
+    }
+    
+    75% {
+        opacity: 0.1;
+        transform: translate(-25%, -25%) rotate(-30deg);
+    }
+    
+    100% {
+        opacity: 0.4;
+        transform: translate(-25%, -25%) rotate(0deg);
+    }
+}
+
+body.spike0 .cursor-anim { animation-play-state: paused }
+body.spike0 .cursor-container { transform: rotate(90deg) }
+body.spike1 .cursor-container { transform: rotate(90deg) translateY(-20vw) }
+body.spike2 .cursor-container { transition: transform 300ms ease-in }
+body.spike3 .cursor-container { transform: rotate(90deg) translateY(1vw) }
+body.spike3:not(.normalload) #static { transition: none; }
+body.spike3 #cyst::before, body.normalload #cyst::before {animation-play-state: paused}
+
+body.spike4 #cyst img, #cyst img.show, body.normalload #cyst img, body.alreadyconnected #cyst img  { opacity: 1 }
+body.spike4:not(.normalload) .cyst-container .crosshair.show { opacity: 0 }
+body.spike4 #static::before {
+    content: "";
+    position: absolute;
+    width: 20vmin;
+    height: 20vmin;
+    background: url(../../img/sprites/velzie/smile2.png);
+    z-index: 5;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.25;
+    transition: opacity 1s ease-in-out;
+}
+
+body.spike4preflash #static::after { content: "" }
+body.spike4flash #static { opacity: 1 }
+body.spike4postflash:not(.normalload) #static { transition: opacity 500ms ease-in-out }
+body.spike4postflash #static::before { opacity: 0; }    
+
+body.spike5 #static { opacity: 1; z-index: 2000; }
+body.spike5 #static::after { content: "" }
+body.spike5 #static::before { content: unset }
+
+body.spike5 #cyst::before {animation-play-state: running}
+body.spike5 #cyst {animation: SHAKE 0.25s linear infinite;}
+
+body.spike6:not(.normalload) #static { transition: 4s opacity ease-in }
+body.spike7 #static { opacity: 0 }
+body.spike7 #closeup::after { display: block }
+body.spike7 #connection-overlay { display: flex }
+body.spike7 .target { opacity: 0 !important }
+
+body.spike8 .cursor, body.spike8 #cyst-column, body.spike8 .table, body.spike8 .backwall, body.spike8 .tablestuff > *:not(.cyst-container) {opacity: 0;}
+body.spike8 .cyst-container {transform-origin: center; z-index: 1; transition: transform 20s ease-in-out !important;}
+
+body.spike9 .cyst-container {transform: scale(25) translate(-5.25vw, 10vh);}
+
+body.spike10 .cursor, body.spike10 #cyst-column, body.spike10 .table, body.spike10 .backwall {display: none;}
+body.spike10 #static {opacity: 1}
+body.spike11 #closeup {display: none}
+
+/* EP0 END */
+.ep0-epi #cyst, .ep0-epi .cyst-container {
+    transition: unset;
+}
+
+.ep0-epi #closeup .cyst-container {
+    bottom: 0;
+    transform: translateY(17vw) rotate(90deg);
+    z-index: 2;
+}
+
+.ep0-epi #cyst-column {
+    position: unset;
+    width: 20vw;
+    height: 30vw;
+}
+
+.ep0-epi #closeup #cyst {
+    transform: translateY(-40%);
+}
+
+.ep0-epi #closeup .crosshair {
+    display: none;
+}
+
+/* EP1 START */
+.copperbox {
+    width: 10vh;
+    height: 10vh;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    display: none;
+}
+
+.copperbox .target[entity^="empty"], .emptycopper .copperbox .target {
+    display: none;
+}
+
+#closeup .copperbox {
+    width: 40vh;
+    height: 40vh;
+    transition: all 5s cubic-bezier(.89,.24,.3,.9);
+}
+
+.showcopper .copperbox { display: flex; }
+.showcopper .geye { display: none; }
+
+.copperbox > figure {
+    height: 100%;
+    width: 100%;
+    background-image: url(../../img/home/copperbox.gif);
+    background-size: 100% auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+    filter: drop-shadow(-1px -1px white);
+}
+
+.ocontainer figure.corrugun {
+    display: none;
+    background: transparent;
+}
+
+.showgun .ocontainer figure.corrugun {
+    display: block;
+}
+
+.ocontainer figure.corrugun::after  {
+    background-image: url(../../img/home/corrugun.gif@);
+    transform: translateY(50%) rotateX(-44deg) rotate(-20deg);
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 0;
+}
+
+.corrugun .target {
+    height: 60%;
+    width: 50%;
+    bottom: 0;
+    top: unset;
+    transform: translateY(30%);
+}
+
+/* EP1 FEED ANIMATIONS */
+/* BOTH/GRAB -
+    prepgrab to add transition
+    cystgrab to move spike to cyst
+    cystlift to move both up
+*/
+.prepgrab .cursor, .prepgrab .cursor img, .prepgrab .cursor-anim, .prepgrab #cyst {
+    transition: 1s cubic-bezier(.89,.24,.3,.9);
+}
+
+.prepgrab .crosshair, .cystlift .crosshair {
+    display: none;
+}
+
+.cystgrab .cursor img:last-child{
+    transform: translateX(-50%) rotateY(10deg);
+}
+
+.cystgrab .cursor {
+    transform: translate(37vw, 27vh) !important;
+}
+
+.cystgrab .cursor-anim {
+    animation: unset;
+    transform: rotateY(95deg);
+}
+
+.cystlift .cursor {
+    transform: translate(37vw, 2vh) !important;
+}
+
+.cystlift #cyst {
+    transform: translateY(-25vh);
+}
+  
+
+/* COPPER - 
+    pourcopper to pour in
+    remove and add emptycopper when done 
+*/
+.pourcopper .copperbox {
+    transform: translate(-20vh, -40vh) rotate(-45deg);
+    z-index: 56;
+}
+
+.pourcopper .copperbox figure {
+    animation: POURCOPPER 1s cubic-bezier(.89,.24,.3,.9) infinite alternate;
+}
+
+.emptycopper .copperbox figure {
+    filter: grayscale(1)
+}
+
+.emptycopper .copperbox .target[entity^="empty"] {
+    display: flex;
+}
+
+@keyframes POURCOPPER {
+    0% { transform: rotate(-20deg) }
+    100% { transform: rotate(-5deg) }
+}
+
+/* DENDRITIC - 
+    containerseq to transition everything
+    containerfade to fade everything but the dendritic cyst and gun
+    containercenter to move it to the center and hold up
+    containeraim to bring them together
+    containershot to shake 
+*/
+.containerseq .ocontainer, .containerseq .ocontainer figure, .containerseq figure.corrugun::after, .containerseq #closeup > :not(.tablestuff), .containerseq #closeup .tablestuff > :not(.ocontainer) {
+    transition: 3s cubic-bezier(.89,.24,.3,.9);
+}
+
+.containerseq .ocontainer {
+    z-index: 60;
+}
+
+.containerfade #closeup > :not(.tablestuff), .containerfade #closeup .tablestuff > :not(.ocontainer) {
+  opacity: 0.25;
+}
+
+.containercenter .ocontainer {
+    transform: translateX(40vh);
+}
+
+.containercenter .ocontainer figure:first-child {
+    transform: translateY(-20vh) translateX(-20vh) rotate(-120deg);
+}
+
+.containercenter figure.corrugun::after {
+    transform: translateX(40vh) rotate(20deg);
+}
+
+.containeraim .ocontainer figure:first-child {
+    --baseTransform: translateY(-20vh) translateX(-5vh) rotate(-110deg);
+    transform: var(--baseTransform)
+}
+
+.containeraim figure.corrugun::after {
+    --baseTransform: translateX(30vh) translateY(-15vh) rotate(-15deg);
+    transform: var(--baseTransform)
+}
+
+.containershot .ocontainer figure:first-child, .containershot figure.corrugun::after {
+    animation: SHAKE 100ms LINEAR INFINITE;
+}
+
+.containerdrop .ocontainer figure:first-child {
+    transform: translateY(-20vh) rotate(300deg) scale(0.1);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.containerdrop.showgun:not(.containeraim) figure.corrugun {
+    transform: translateX(25%);    
+}

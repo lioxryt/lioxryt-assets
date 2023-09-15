@@ -1,0 +1,552 @@
+#content {
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cull-stage .grid-plane, .cull-stage #grid-ref, .cull-stage .grid, .cull-stage .stage-navigator {
+    display: none !important;
+    will-change: unset !important;
+}
+
+.fade-stage .grid-plane {
+    opacity: 0 !important;
+}
+
+.grid-container, .grid-animator, .grid-plane {
+    width: 100vw;
+    height: 100vh;
+}
+
+.grid-plane {
+    perspective: 700px;
+    --stage-steps-x: 0;
+    --stage-steps-y: 0;
+    --stage-width: 0;
+    --stage-height: 0;
+    --stage-steps-x-fromcenter: ((var(--stage-steps-x) * 2) - var(--stage-width));
+    --stage-steps-y-fromcenter: ((var(--stage-steps-y) * 2) - var(--stage-height));
+    --gridScale: 200;
+    --gridTileSize: calc(var(--gridScale) * 1px);
+    -webkit-clip-path: circle(0px at center);
+    clip-path: circle(0px at center);
+    transition: clip-path 400ms ease-in-out, -webkit-clip-path 400ms ease-in-out, opacity 1s ease-in-out;
+}
+
+body.stage-active .grid-plane {
+    -webkit-clip-path: circle(100vmax at center);
+    clip-path: circle(100vmax at center);
+}
+
+.grid-plane {
+    --leftcam: translateY(0);
+    --rightcam: translateY(calc(var(--gridTileSize) * -1)) translateX(calc(var(--gridTileSize) * -1));
+    --downcam: translateX(calc(var(--gridTileSize) * -1));
+    --upcam: translateY(calc(var(--gridTileSize) * -1));
+}
+
+.grid-plane[lastmoved="left"] { --camoffset: translateY(0); }
+.grid-plane[lastmoved="right"] { --camoffset: translateY(calc(var(--gridTileSize) * -1)) translateX(calc(var(--gridTileSize) * -1)) }
+.grid-plane[lastmoved="down"] { --camoffset: translateX(calc(var(--gridTileSize) * -1)) }
+.grid-plane[lastmoved="up"] { --camoffset: translateY(calc(var(--gridTileSize) * -1))}
+  
+.grid-container {
+    position: absolute;
+    transition: all 400ms ease-in-out;
+}
+
+.grid-animator {
+    transform-origin: top left;
+    transform: rotateZ(calc(var(--camrotation) * 1deg));
+    transition: transform 300ms ease-in-out;
+}
+
+.grid-container {
+    transform: 
+        translate(50%, 50%) 
+        rotateX(90deg) 
+        translateX(calc( var(--gridTileSize) * 0.5 )) 
+        translateZ(calc( var(--gridTileSize) * 1 ))
+        translateY(calc( var(--gridTileSize) * (9 / (var(--gridScale) / 100)) ))
+}
+
+@media only screen and (max-height: 900px) {
+    .grid-container {
+        transform: translate(50%, 50%) 
+            rotateX(90deg) 
+            translateX(calc(var(--gridTileSize) * 0.5)) 
+            translateZ(calc( var(--gridTileSize) * 0.5 ))
+            translateY(calc( (var(--gridTileSize) * (8 / (var(--gridScale) / 100))) - 30vh ));
+    }
+}
+
+@media only screen and (max-height: 800px) {
+    .grid-plane {
+        perspective: 400px;
+    }
+
+    .grid-container {
+        transform: translate(50%, 50%) 
+        rotateX(90deg) 
+        translateX(calc(var(--gridTileSize) * 0.5)) 
+        translateY(calc( (var(--gridTileSize) * (10 / (var(--gridScale) / 100))) - 100vh ));
+    }
+}
+
+#grid-ref .truecreature {
+    display: none;
+}
+
+.grid-container, .grid-container * {
+    transform-style: preserve-3d;
+}
+
+#realgrid {
+    background: transparent;
+    z-index: 1;
+    transition: transform 400ms linear;
+    width: calc(var(--stageWidth) * var(--gridTileSize));
+    transform: 
+        translateY(calc(var(--stage-steps-y) * var(--gridTileSize) * -1)) 
+        translateX(calc(var(--stage-steps-x) * var(--gridTileSize) * -1))    
+        var(--camoffset) 
+    ;
+}
+
+/* grid backing
+#realgrid:after {
+    content: "";
+    background: url(/img/tex/water.gif);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    transform: translateZ(-10px);
+}
+*/
+
+.no-transition {
+    transition: unset !important;
+}
+
+.grid {
+    width: calc(8 * var(--gridTileSize));
+    height: auto;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    will-change: transform;
+}
+
+.gridpiece {
+    width: var(--gridTileSize);
+    height: var(--gridTileSize);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 100ms cubic-bezier(.6,.86,.62,1.35);
+    transform-origin: center;
+}
+
+.gridpiece.hide {
+    pointer-events: none;
+    opacity: 0;
+}
+
+.gridpiece.hide > *, .gridpiece.hide:before, .gridpiece.hide:after {
+    display: none;
+}
+
+#realgrid .gridpiece.blocks:empty {
+    background: transparent;
+    background-size: cover;
+    border: 0px;
+}
+
+#realgrid .gridpiece.teleport.blocks {
+    background: var(--neutral-color);
+    border: 10px solid var(--neutral-color);
+    border-style: outset;
+}
+
+#realgrid .gridpiece.teleport.blocks.locked {
+    background: var(--obesk-color);
+    background-image: url('/img/textures/fadein.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+.reference .gridpiece.teleport.blocks {
+    background: var(--neutral-color);
+}
+
+.gridpiece {
+    background: transparent;
+    display: flex;
+}
+
+.gridpiece > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gridpiece * {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.gridpiece:empty {
+    background: var(--bright-color);
+    border: 20px double var(--dark-color);
+}
+
+.gridpiece.talk-target:not(.blocks) {
+    border-color: var(--friend-color);
+    background: var(--bright-color);
+}
+
+#realgrid .gridpiece.talk-target:not(.blocks) {
+    transform: translateZ(calc(var(--gridTileSize) * 0.2)) scale(1.2);
+}
+
+.gridpiece.hidetile > *, .gridpiece.hidetile {
+    background: transparent !important;
+    border: 0 !important;
+}
+
+#realgrid .has-sprite:after {
+    content: "";
+    display: block;
+    transform: rotateX(90deg) translateY(calc( var(--gridTileSize) * -1 ));
+    background: url(/img/sprites/friendevil.gif);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: var(--gridTileSize); 
+    height: calc(var(--gridTileSize) * 2);
+    transform: rotateX(-90deg) translateY(-50%) rotateY(0deg);
+    transition: transform 200ms ease-in-out;
+}
+
+/* HTML navigation */
+#stage-navigator {
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    font-size: 3em;
+    color: var(--neutral-color);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    transition: opacity 400ms ease-in-out;
+    opacity: 0.5;
+}
+
+.in-menu #stage-navigator, .mui-active #stage-navigator {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#stage-navigator:hover {
+    opacity: 1;
+}
+
+#stage-navigator > span {
+    position: absolute;
+    display: block;
+    padding: 10px;
+    margin-bottom: 15px;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: 400ms ease-in-out;
+    opacity: 0;
+    transform: translateY(-100%);
+    font-family: barcodetext;
+    background: black;
+}
+
+#stage-navigator:hover > span {
+    opacity: 1;
+}
+
+.stage-arrows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: calc(1.2em + 5px);
+    position: relative;
+}
+
+.stage-arrows > div {
+    position: relative;
+    display: inline-flex;
+    background: var(--dark-color);
+    color: var(--neutral-color);
+    width: 1.2em;
+    height: 1.2em;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    border: 4px double;
+    cursor: pointer;
+}
+
+.stage-arrows > div::after {
+    content: attr(key);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    width: 1.5em;
+    height: 1.5em;
+    font-family: spacemono;
+    font-size: 0.5em;
+    text-transform: uppercase;
+    background: black;
+    border: 2px solid var(--friend-color);
+    border-radius: 100%;
+    transition: opacity 1s ease-in-out;
+    transform: translateY(-130%);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.stage-arrows > div:hover::after {
+    opacity: 1;
+}
+        
+.stage-arrows > div:hover {
+    border-style: groove;
+    color: var(--friend-color);
+}
+
+.stage-arrows .up {
+    position: absolute;
+    top: 0;
+}
+/* special stage controls - Perspective Swap and Quality */
+.stage-arrows .swap, .stage-arrows .quality {
+    color: var(--obesk-color);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.swap i, .quality i { font-size: 0.8em }
+.stage-arrows > .quality::after {white-space: nowrap; }
+
+.swap .fa-search-plus, .swapcam .swap .fa-search-minus { display: none }
+.swapcam .swap .fa-search-plus, .swap .fa-search-minus { display: inline }
+.swapcam .swap { color: var(--friend-color); }
+
+/* special stage controls - party menu */
+.stage-arrows > .party {
+    display: none;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    transform: translate(-100%, 50%);
+}
+
+.stage-arrows > .party::after {
+    padding: 0.25em;
+}
+
+.party-enabled .stage-arrows .party, .collapse .stage-arrows .party {
+    display: inline-flex;
+}
+
+/* quality specific controls */
+.stage-arrows .quality {
+    right: unset;
+    left: 0;
+}
+
+.stage-arrows > .quality::after {
+    content: "QUALTIY: " attr(quality);
+    width: auto;
+    border-radius: 10px;
+    padding: 0.25em;
+    text-transform: uppercase;
+}
+
+body[quality="high"] .quality { color: var(--friend-color) }
+body[quality="high"] .quality::after { content: "Quality: HIGH" }
+body[quality="regular"] .quality { color: var(--neutral-color) }
+body[quality="regular"] .quality::after { content: "Quality: REGULAR" }
+body[quality="low"] .quality { color: var(--bright-color) }
+body[quality="low"] .quality::after { content: "Quality: LOW" }
+
+/* ref controls */
+.reference {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 8px;
+    flex-wrap: wrap;
+    opacity: 0;
+    pointer-events: none;
+    display: none;
+}
+
+.reference .gridpiece {
+    width: 1px !important;
+    height: 1px !important;
+    border: 0px !important;
+}
+
+.reference .gridpiece .target {
+    display: none !important;
+}
+
+.reference .gridpiece > * {
+    width: 1px !important;
+    height: 1px !important;
+    transform: unset !important;
+    position: relative !important;
+    top: unset !important;
+    bottom: unset !important;
+}
+
+.reference .gridpiece > * > * {
+    display: none !important;
+    pointer-events: none;
+}
+
+.reference#grid-ref {
+    display: flex;
+    opacity: 1;
+    pointer-events: initial;
+    z-index: 16777271;
+    opacity: 0;
+    width: calc(1px * var(--stageWidth))
+}
+
+/* special modifiers */
+#realgrid .turn90 { transform: rotate(90deg) }
+#realgrid .turn180 { transform: rotate(180deg) }
+#realgrid .turn270 { transform: rotate(270deg) }
+  
+/* particular dudes */
+#realgrid .pianoguy:after {
+    position: absolute;
+    background-image: url(pianofrog.gif);
+    width: calc(var(--gridTileSize) * 2.5);
+    height: calc(var(--gridTileSize) * 2.5);
+    animation: 0;
+    transform: rotateX(-90deg) translateY(-25%);	
+}
+
+#realgrid .ally-sprite {
+    width: var(--gridTileSize);
+    height: var(--gridTileSize);
+    background-color: var(--friend-color);
+    border: 10px solid var(--dark-color);
+}
+
+#realgrid .neutral-sprite {
+    width: var(--gridTileSize);
+    height: var(--gridTileSize);
+    background-color: var(--bright-color);
+    border: 10px solid var(--neutral-color);
+}
+
+#realgrid .fiend, #realgrid .evil {
+    width: var(--gridTileSize);
+    height: var(--gridTileSize);
+    background: var(--obesk-color);
+    background-image: url('/img/textures/fadein.gif');
+    background-size: cover;
+    background-position: center;
+    border: 10px solid var(--obesk-color);
+}
+
+#realgrid .evil.dead {
+    background: var(--dark-color);
+    border-color: var(--bright-color);
+}
+
+/* DYNAMIC PROPS (ep3)
+    these are less hardcoded props made up of classes, like regular HTML would be...
+    as opposed to the insane mess that all the old .props are
+
+    gotta keep the old ones in old files short of a rewrite tho
+*/
+#realgrid .dyp {
+    --dyp-image: url(/img/konstrukt.gif);
+    --dyp-transform: translateX(0);
+    --dyp-height: 2;
+    --dyp-width: 1;
+}
+
+#realgrid .dyp > * {
+    bottom: 50%;
+    position: absolute;
+    transform-origin: bottom;
+    width: calc(var(--gridTileSize) * var(--dyp-width));
+    height: calc(var(--gridTileSize) * var(--dyp-height));
+    transform: rotateX(-90deg) var(--dyp-transform);
+    background-image: var(--dyp-image);
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+}
+
+#realgrid .dyp > .dyp-noback {
+    backface-visibility: hidden;
+}
+
+#realgrid .dyp-noback .target {
+    backface-visibility: hidden;
+}
+
+#realgrid .dyp-noback .target::before {
+    display: none;
+}
+
+#realgrid .dyp .dyp-cross {
+    background-image: unset;
+}
+
+#realgrid .dyp .dyp-cross::before, #realgrid .dyp .dyp-cross::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: var(--dyp-image);
+    position: absolute;
+    bottom: 0;
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+#realgrid .dyp .dyp-cross::after {
+    transform: rotateY(90deg);
+}
+
+body[quality="regular"] #realgrid .dyp *, 
+body[quality="regular"] #realgrid .dyp *::after, 
+body[quality="regular"] #realgrid .dyp *::before,
+body[quality="low"] #realgrid .dyp *, 
+body[quality="low"] #realgrid .dyp *::after, 
+body[quality="low"] #realgrid .dyp *::before
+{
+    animation-play-state: paused;
+}
+
+body[quality="low"] #realgrid .dyp .dyp-cross::after {
+    display: none;
+}
