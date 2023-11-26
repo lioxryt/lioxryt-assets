@@ -1,0 +1,13 @@
+{
+"companyName": "Traffic Jam 3D 17",
+"productName": "Traffic Jam 3D",
+"dataUrl": "TrafficJam3D-build-4.data.unityweb",
+"wasmCodeUrl": "TrafficJam3D-build-4.wasm.code.unityweb",
+"wasmFrameworkUrl": "TrafficJam3D-build-4.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
